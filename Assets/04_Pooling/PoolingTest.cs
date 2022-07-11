@@ -16,7 +16,7 @@ public class PoolingTest : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(1);
-            GameObject testObj=PoolingManager._Instance.PopObj("TestObj");
+            GameObject testObj = PoolingManager._Instance.PopObj("TestObj");
         }
     }
 
