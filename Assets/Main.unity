@@ -455,12 +455,13 @@ MonoBehaviour:
   useLoop: 1
   awake: 1
   duration: 1
+  rotateAngle: 45
   delayTime: 1
   loops: -1
   eventTag: 
-  loopType: 1
+  loopType: 2
   ease: 18
-  moveType: 0
+  moveType: 1
   value: {x: -200, y: 0}
   moveObject: {fileID: 1487650300}
 --- !u!114 &1487650303
