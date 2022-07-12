@@ -5,18 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/01_Scene/Main.unity
     guid: abbfd408ed7678f4399181efb76ee8f9
   - enabled: 1
     path: Assets/01_Scene/KimJaeHee.unity
     guid: 91f4addb795cb7d468d1f9b8d83e580f
   - enabled: 1
-    path: Assets/01_Scene/JangWheeseSong.unity
+    path: Assets/01_Scene/JangWheeseSong2.unity
     guid: 68966e5c58d60a1409bf016000e23c37
   - enabled: 1
     path: Assets/01_Scene/ChoiDaeWon.unity
     guid: 512d8b07a05c10247aaf8d70ee6ec9d0
+  - enabled: 1
+    path: Assets/01_Scene/JangWheeseSong 1.unity
+    guid: eb3e7fec84ac6eb479e8871a8f53ceb1
   - enabled: 1
     path: Assets/01_Scene/Stage.unity
     guid: f1c09223b29b45141b5fc4077b72e54d
