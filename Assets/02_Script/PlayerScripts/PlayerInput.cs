@@ -10,6 +10,7 @@ public class PlayerInput : MonoBehaviour
     DungeonOpen DO;
     SmithyOpen SO;
     TownOpen TO;
+    WellOpen WO;
     bool SmithyOpen_window_open;
     bool TownOpen_window_open;
     private void Awake()
@@ -17,17 +18,22 @@ public class PlayerInput : MonoBehaviour
         SmithyOpen_window.SetActive(false);
         SmithyOpen_window_open = false;
         TownOpen_window_open = false;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
         DO = FindObjectOfType<DungeonOpen>();
-        SO = FindObjectOfType<SmithyOpen>();
         TO = FindObjectOfType<TownOpen>();
+        SO = FindObjectOfType<SmithyOpen>();
+        WO = FindObjectOfType<WellOpen>();
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+
+    }
+
     void Update()
+    {
+        Interaction();
+    }
+    void Interaction()
     {
         if (DO.dungeon_possible == true && Input.GetKeyDown(KeyCode.E))
         {
@@ -46,7 +52,6 @@ public class PlayerInput : MonoBehaviour
             Debug.Log("´ëÀå°£ ²û");
             SmithyOpen_window.SetActive(false);
             SmithyOpen_window_open = false;
-            gameObject.GetComponent<window>().enabled = false;
         }
         if (TO.town_possible == true && TownOpen_window_open == false && Input.GetKeyDown(KeyCode.E))
         {

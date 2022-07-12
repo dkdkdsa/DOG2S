@@ -6,7 +6,7 @@ public class TownOpen : MonoBehaviour
 {
     public bool town_possible;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         town_possible = false;
     }
