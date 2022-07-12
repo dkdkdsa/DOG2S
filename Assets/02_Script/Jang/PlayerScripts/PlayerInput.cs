@@ -12,6 +12,7 @@ public class PlayerInput : MonoBehaviour
     {
         window.SetActive(false);
         window_open = false;
+<<<<<<< Updated upstream
     }
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,22 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+=======
+        NO = FindObjectOfType<NpcOpen>();
+    }
+
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+        Interaction();
+    }
+    void Interaction()
+    {
+>>>>>>> Stashed changes
         if (NO.npc_possible == true && window_open == false && Input.GetKeyDown(KeyCode.E))
         {
             window.SetActive(true);
@@ -33,6 +50,11 @@ public class PlayerInput : MonoBehaviour
         {
             window.SetActive(false);
             window_open = false;
+<<<<<<< Updated upstream
+=======
+            window.SetActive(false);
+            window_open = false;
+>>>>>>> Stashed changes
         }
         Out();
     }

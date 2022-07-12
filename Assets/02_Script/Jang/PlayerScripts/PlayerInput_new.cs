@@ -25,7 +25,7 @@ public class PlayerInput_new : MonoBehaviour
     {
         if (DO.dungeon_possible == true && Input.GetKeyDown(KeyCode.E))
         {
-            //SceneManager.LoadScene();
+            SceneManager.LoadScene("TowerSide_ChoiDaeWon");
         }
         if (SO.smithy_possible == true && Input.GetKeyDown(KeyCode.E))
         {
