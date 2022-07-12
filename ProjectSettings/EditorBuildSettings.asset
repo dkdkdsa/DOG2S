@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_Scene/ChoiDaeWon.unity
     guid: 512d8b07a05c10247aaf8d70ee6ec9d0
+  - enabled: 1
+    path: Assets/01_Scene/Stage.unity
+    guid: f1c09223b29b45141b5fc4077b72e54d
   m_configObjects: {}

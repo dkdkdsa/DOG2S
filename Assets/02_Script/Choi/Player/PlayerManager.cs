@@ -21,10 +21,10 @@ public class PlayerManager : MonoBehaviour
 
         HPbar.value -= damage;
 
-        DamageEffect.text = damage.ToString();
 
         Instantiate(DamageEffect, transform.position, Quaternion.identity);
 
+        DamageEffect.text = damage.ToString();
     }
 
 }
