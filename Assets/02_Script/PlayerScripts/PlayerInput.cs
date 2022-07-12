@@ -36,26 +36,28 @@ public class PlayerInput : MonoBehaviour
     void Interaction()
     {
         if (DO.dungeon_possible == true && Input.GetKeyDown(KeyCode.E))
+        if (NO.npc_possible == true && window_open == false && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("´øÀü ÀÔÀå");
-        }
-        if (SO.smithy_possible == true && SmithyOpen_window_open == false && Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("´ëÀå°£ ¿ÀÇÂ");
-            SmithyOpen_window.SetActive(true);
-            SmithyOpen_window_open = true;
-            window Window = SmithyOpen_window.GetComponent<window>();
+            window.SetActive(true);
+            window_open = true;
+            window Window = window.GetComponent<window>();
             Window.Load();
         }
-        else if (SmithyOpen_window_open == true && Input.GetKeyDown(KeyCode.E))
+        else if (window_open == true && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("´ëÀå°£ ²û");
+            Debug.Log("ï¿½ï¿½ï¿½å°£ ï¿½ï¿½");
             SmithyOpen_window.SetActive(false);
             SmithyOpen_window_open = false;
+            window.SetActive(false);
+            window_open = false;
         }
-        if (TO.town_possible == true && TownOpen_window_open == false && Input.GetKeyDown(KeyCode.E))
+        Out();
+    }
+    void Out()
+    {
+        if (-2 <= transform.position.x && transform.position.x <= 2 && transform.position.y <= -4)
         {
-            Debug.Log("¸¶À»È¸°ü ÀÔÀå");
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
             TownOpen_window.SetActive(true);
             TownOpen_window_open = true;
             window Window = TownOpen_window.GetComponent<window>();
@@ -63,9 +65,10 @@ public class PlayerInput : MonoBehaviour
         }
         else if (TownOpen_window_open == true && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("¸¶À»È¸°ü ÅðÀå");
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
             TownOpen_window.SetActive(false);
             TownOpen_window_open = false;
+            SceneManager.LoadScene("JangWheeseSong 1");
         }
     }
 }
