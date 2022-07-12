@@ -16,7 +16,7 @@ public class UI_Manager : MonoBehaviour
             if(objects[i].EventTag == eventTag)
             {
 
-                objects[i].Lode();
+                objects[i].Lode(false);
 
             }
             

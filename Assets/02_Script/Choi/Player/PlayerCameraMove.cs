@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerCameraMove : MonoBehaviour
 {
     [SerializeField] private Transform traget;
-
     void FixedUpdate()
     {
 
