@@ -1,14 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Enemy_AI : MonoBehaviour
 {
 
     [SerializeField] private float speed;
     [SerializeField] private float damage;
+    [SerializeField] private float HP;
+    [SerializeField] private TextMesh damageEffect;
     [SerializeField] private Vector2 size;
+    [SerializeField] private Camera main_Camera;
 
+    private bool isKnockBack;
     private PlayerManager playerManager;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -16,6 +21,8 @@ public class Enemy_AI : MonoBehaviour
     private Vector2 move;
     private Collider2D box;
     private Collider2D attackBox;
+
+    public bool isDie;
 
     void Awake()
     {
@@ -27,11 +34,10 @@ public class Enemy_AI : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
 
-        Move();
+        if(isKnockBack == false) Move();
 
     }
 
@@ -67,7 +73,7 @@ public class Enemy_AI : MonoBehaviour
 
                 animator.SetBool("Walk", false);
                 animator.SetTrigger("Attack");
-                move = Vector2.zero;
+                move = new Vector2(0, enemy_rigidbody.velocity.y);
 
             }
 
@@ -76,7 +82,7 @@ public class Enemy_AI : MonoBehaviour
         {
 
             animator.SetBool("Walk", false);
-            move = Vector2.zero;
+            move = new Vector2(0, enemy_rigidbody.velocity.y);
 
         }
 
@@ -86,10 +92,93 @@ public class Enemy_AI : MonoBehaviour
 
     }
 
+    public void TakeDamage(float damage, float knockBackPos)
+    {
+        HP -= damage;
+
+        damageEffect.text = $"{damage}";
+        Instantiate(damageEffect, transform.position, Quaternion.identity);
+
+        if(HP > 0)
+        {
+            if(isKnockBack == false)
+            {
+
+                transform.position = new Vector2(transform.position.x + knockBackPos, transform.position.y + 0.5f);
+                StartCoroutine(KnockCoolTime());
+                StartCoroutine(GracityCoolTime());
+
+            }
+
+
+        }
+        else if(HP <= 0)
+        {
+
+            Die(knockBackPos);
+
+        }
+
+
+
+    }
+
+    private void Die(float knockBackPos)
+    {
+
+        main_Camera.transform.DOShakePosition(0.3f, new Vector3(0.5f, 0, 0), 20, 0);
+        animator.SetTrigger("Die");
+        enemy_rigidbody.velocity = Vector2.zero;
+        enemy_rigidbody.gravityScale = 1;
+        enemy_rigidbody.AddForce(new Vector2(knockBackPos * 2, 3f) * 1, ForceMode2D.Impulse);
+        StartCoroutine(Disappear());
+
+    }
+
     public void AttackEvent()
     {
 
         if(attackBox == true) playerManager.TakeDamage((int)Random.Range(damage, damage + 10f));
 
     }
+
+    IEnumerator GracityCoolTime()
+    {
+
+        yield return new WaitForSeconds(0.1f);
+
+
+    }
+    IEnumerator KnockCoolTime()
+    {
+        isKnockBack = true;
+        yield return new WaitForSeconds(1f);
+        isKnockBack = false;
+    }
+
+    IEnumerator Disappear()
+    {
+
+        yield return new WaitForSeconds(3f);
+
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+
+        Color color = spriteRenderer.color;
+
+        for (float i = 0; i < 10; i++)
+        {
+
+            color.a = 0.5f;
+            spriteRenderer.color = color;
+            yield return new WaitForSeconds(0.1f);
+            color.a = 1;
+            spriteRenderer.color = color;
+            yield return new WaitForSeconds(0.1f);
+
+        }
+
+        Destroy(gameObject);
+
+    }
+
 }

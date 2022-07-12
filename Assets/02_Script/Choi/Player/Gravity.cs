@@ -18,7 +18,9 @@ public class Gravity : MonoBehaviour
 
     void FixedUpdate()
     {
+
         Artificial_Gravity();
+
     }
 
     private void Artificial_Gravity()
