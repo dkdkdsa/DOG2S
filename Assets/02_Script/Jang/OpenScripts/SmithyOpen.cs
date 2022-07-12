@@ -6,7 +6,7 @@ public class SmithyOpen : MonoBehaviour
 {
     public bool smithy_possible;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         smithy_possible = false;
     }

@@ -5,13 +5,11 @@ using UnityEngine;
 public class DungeonOpen : MonoBehaviour
 {
     public bool dungeon_possible;
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         dungeon_possible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Collider2D collider = Physics2D.OverlapCircle(transform.position, 1, LayerMask.GetMask("Player"));
