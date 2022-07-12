@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/01_Scene/KimJaeHee.unity
     guid: 91f4addb795cb7d468d1f9b8d83e580f
   - enabled: 0
-    path: Assets/01_Scene/JangWheeseSong2.unity
+    path: 
     guid: 68966e5c58d60a1409bf016000e23c37
   - enabled: 1
     path: Assets/01_Scene/ChoiDaeWon.unity
@@ -23,8 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_Scene/Stage.unity
     guid: f1c09223b29b45141b5fc4077b72e54d
-    path: Assets/01_Scene/Motel.unity
-    guid: 8e85ac69ac5712442b9f83a59230569f
   - enabled: 1
     path: Assets/01_Scene/Smithy.unity
     guid: 8e453f7109c104d468769dc22a948a98
@@ -37,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_Scene/Pestaurant.unity
     guid: 6dbd66349de49cd40b7fffa306d32aba
+  - enabled: 1
+    path: Assets/01_Scene/TowerSide_ChoiDaeWon.unity
+    guid: 057f0a96546825740897b0a82662b633
   m_configObjects: {}

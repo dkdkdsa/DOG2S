@@ -1,0 +1,53 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class PlayerInput : MonoBehaviour
+{
+    public GameObject window;
+    NpcOpen NO;
+    bool window_open;
+    private void Awake()
+    {
+        window.SetActive(false);
+        window_open = false;
+        window_open = false;
+        NO = FindObjectOfType<NpcOpen>();
+    }
+
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+        Interaction();
+    }
+    void Interaction()
+    {
+        if (NO.npc_possible == true && window_open == false && Input.GetKeyDown(KeyCode.E))
+        {
+            window.SetActive(true);
+            window_open = true;
+            window Window = window.GetComponent<window>();
+            Window.Load();
+        }
+        else if (window_open == true && Input.GetKeyDown(KeyCode.E))
+        {
+            window.SetActive(false);
+            window_open = false;
+            window.SetActive(false);
+            window_open = false;
+        }
+        Out();
+    }
+    void Out()
+    {
+        if (-2 <= transform.position.x && transform.position.x <= 2 && transform.position.y <= -4)
+        {
+            SceneManager.LoadScene("JangWheeseSong 1");
+        }
+    }
+}
