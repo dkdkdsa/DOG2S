@@ -61,7 +61,6 @@ public class PlayerInput : MonoBehaviour
             Debug.Log("마을회관 퇴장");
             TownOpen_window.SetActive(false);
             TownOpen_window_open = false;
-            gameObject.GetComponent<window>().enabled = false;
         }
     }
 }
