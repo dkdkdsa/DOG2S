@@ -201,7 +201,7 @@ public class PlayerMove : MonoBehaviour
 
                 Enemy_AI enemy = item.GetComponent<Enemy_AI>();
 
-                if(enemy.isDie == false)
+                if(enemy.IsDie == false)
                 {
 
                     enemy.TakeDamage((int)Random.Range(attackPower, attackPower + 9), 0);

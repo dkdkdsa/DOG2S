@@ -13,6 +13,7 @@ public class Enemy_AI : MonoBehaviour
     [SerializeField] private Vector2 size;
     [SerializeField] private Camera main_Camera;
 
+    private bool isDie;
     private bool isKnockBack;
     private PlayerManager playerManager;
     private Animator animator;
@@ -22,7 +23,7 @@ public class Enemy_AI : MonoBehaviour
     private Collider2D box;
     private Collider2D attackBox;
 
-    public bool isDie;
+    public bool IsDie => isDie;
 
     void Awake()
     {
@@ -37,7 +38,7 @@ public class Enemy_AI : MonoBehaviour
     void Update()
     {
 
-        if(isKnockBack == false) Move();
+        if(isKnockBack == false && isDie == false) Move();
 
     }
 
@@ -126,6 +127,7 @@ public class Enemy_AI : MonoBehaviour
     private void Die(float knockBackPos)
     {
 
+        isDie = true;
         main_Camera.transform.DOShakePosition(0.3f, new Vector3(0.5f, 0, 0), 20, 0);
         animator.SetTrigger("Die");
         enemy_rigidbody.velocity = Vector2.zero;
