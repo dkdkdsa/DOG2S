@@ -18,6 +18,9 @@ public class UI_Move : MonoBehaviour
     [Tooltip("움직임 타입")][SerializeField] private MoveType moveType;
     [Tooltip("움직일 좌표 현재 좌표애서 더해짐")][SerializeField] private Vector2 value;
     [Tooltip("움직여야할 오브젝트")][SerializeField] private GameObject moveObject;
+    [Tooltip("로딩스크립트")][SerializeField] private UI_Load_Scripts scripts;
+
+    private bool isLoadScripts;
 
     public string EventTag => eventTag;
 
@@ -36,14 +39,16 @@ public class UI_Move : MonoBehaviour
         if (awake)
         {
 
-            Lode();
+            Lode(false);
 
         }
 
     }
 
-    public void Lode()
+    public void Lode(bool load)
     {
+
+        isLoadScripts = load;
 
         if (useLoop)
         {
@@ -113,6 +118,7 @@ public class UI_Move : MonoBehaviour
         .OnComplete(() =>
         {
 
+            if (scripts != null && isLoadScripts == true) scripts.Script_Loading();
 
         });
 
