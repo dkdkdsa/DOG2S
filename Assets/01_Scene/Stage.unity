@@ -741,31 +741,7 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 746705231}
     m_ColliderPaths:
-    - - X: 250624892
-        Y: -19999959
-      - X: 250624951
-        Y: -19999900
-      - X: 260000041
-        Y: -19999900
-      - X: 260000100
-        Y: -19999959
-      - X: 260000100
-        Y: -20000000
-      - X: 359999900
-        Y: -20000000
-      - X: 359999900
-        Y: -19999959
-      - X: 359999959
-        Y: -19999900
-      - X: 369375049
-        Y: -19999900
-      - X: 369375108
-        Y: -19999959
-      - X: 369375108
-        Y: -20000000
-      - X: 369583328
-        Y: -20000000
-      - X: 370000000
+    - - X: 370000000
         Y: -15833333
       - X: 370000000
         Y: -10000000
@@ -775,7 +751,7 @@ CompositeCollider2D:
         Y: -17916668
       - X: 250208336
         Y: -20000000
-      - X: 250624892
+      - X: 369583328
         Y: -20000000
     - - X: 90000000
         Y: -107708328
@@ -830,18 +806,6 @@ CompositeCollider2D:
       - X: 330000000
         Y: -45833336
       - X: 330000000
-        Y: -40000000
-      - X: 260000100
-        Y: -40000000
-      - X: 260000100
-        Y: -40000041
-      - X: 260000041
-        Y: -40000100
-      - X: 250624951
-        Y: -40000100
-      - X: 250624892
-        Y: -40000041
-      - X: 250624892
         Y: -40000000
       - X: 220000000
         Y: -40000000
@@ -3091,7 +3055,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 59a49999855b1664daea3dacf1e2272c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -3193,7 +3157,7 @@ PlatformEffector2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774618525}
   m_Enabled: 1
-  m_UseColliderMask: 1
+  m_UseColliderMask: 0
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295

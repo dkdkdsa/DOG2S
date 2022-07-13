@@ -37,6 +37,8 @@ public class PlayerMove : MonoBehaviour
     private float rotate_Value;
     private float knockBackPos;
 
+    public bool IsAttack => isAttack;
+    public bool IsSkill => isSkill;
     public float KnockBackPos => knockBackPos;
     public float AttackPower { get { return attackPower; } set { attackPower = value;  } }
     public float Buff_Defance { get { return buff_Defense; } set { buff_Defense = value;} }
