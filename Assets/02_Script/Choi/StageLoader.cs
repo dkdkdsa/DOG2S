@@ -36,7 +36,7 @@ public class StageLoader : MonoBehaviour
 
         obj_Slider.maxValue = 100 + player.Buff_Hp;
 
-        obj_Slider.value = player.Buff_Hp;
+        obj_Slider.value = obj_Slider.maxValue;
 
     }
 
