@@ -13,7 +13,11 @@ public class Enemy_AI : MonoBehaviour
     [SerializeField] private Vector2 size;
     [SerializeField] private Camera main_Camera;
 
+<<<<<<< Updated upstream
     private bool isDie;
+=======
+    private PlayerMove playerMove;
+>>>>>>> Stashed changes
     private bool isKnockBack;
     private PlayerManager playerManager;
     private Animator animator;
@@ -28,6 +32,7 @@ public class Enemy_AI : MonoBehaviour
     void Awake()
     {
 
+        playerMove = FindObjectOfType<PlayerMove>().GetComponent<PlayerMove>();
         playerManager = FindObjectOfType<PlayerManager>().GetComponent<PlayerManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         enemy_rigidbody = GetComponent<Rigidbody2D>();
@@ -48,7 +53,7 @@ public class Enemy_AI : MonoBehaviour
         box = Physics2D.OverlapBox(transform.position, size, 0, LayerMask.GetMask("Player"));
         attackBox = Physics2D.OverlapBox(transform.position, new Vector2(2, 2), 0, LayerMask.GetMask("Player"));
 
-        if (box)
+        if (box && playerMove.IsDie == false)
         {
 
             if(transform.position.x > box.transform.position.x)
@@ -69,7 +74,7 @@ public class Enemy_AI : MonoBehaviour
 
             }
 
-            if (attackBox)
+            if (attackBox )
             {
 
                 animator.SetBool("Walk", false);
