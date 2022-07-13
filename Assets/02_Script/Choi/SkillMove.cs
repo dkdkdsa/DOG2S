@@ -40,7 +40,7 @@ public class SkillMove : MonoBehaviour
             if (enemy.IsDie == false)
             {
 
-                enemy.TakeDamage((int)Random.Range(playerMove.AttackPower * 2, playerMove.AttackPower * 2.5f), pos);
+                enemy.TakeDamage((int)Random.Range((playerMove.AttackPower + playerMove.Buff_AttackPower + playerMove.WaponAttackPower) * 2, (playerMove.AttackPower + playerMove.Buff_AttackPower + playerMove.WaponAttackPower) * 2.5f), pos);
                 Instantiate(explosionEffect, transform.position, Quaternion.identity);
                 Destroy(gameObject);
 

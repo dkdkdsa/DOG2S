@@ -893,6 +893,7 @@ MonoBehaviour:
   costText: {fileID: 1369743328}
   damageText: {fileID: 888831149}
   weaponText: {fileID: 103542197}
+  item: {fileID: 1252919720}
 --- !u!1 &416495793
 GameObject:
   m_ObjectHideFlags: 0
