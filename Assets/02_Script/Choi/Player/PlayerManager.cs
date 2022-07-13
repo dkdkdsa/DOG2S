@@ -18,13 +18,24 @@ public class PlayerManager : MonoBehaviour
     {
 
         animator = GetComponent<Animator>();
-        HPbar.value = 100f;
 
+
+
+    }
+
+    private void Start()
+    {
+        
+
+
+
+        HPbar.value = HPbar.maxValue;
     }
 
     private void Update()
     {
 
+        HPbar.maxValue = 100 + player.Buff_Hp;
         if (Physics2D.OverlapBox(transform.position, new Vector2(0.5f, 0.7f), 0, LayerMask.GetMask("Trap")) && player.IsDie == false)
         {
 
@@ -39,7 +50,7 @@ public class PlayerManager : MonoBehaviour
     public void TakeDamage(float damage)
     {
 
-        HPbar.value -= Mathf.Abs(damage - player.Buff_Hp - player.Buff_Defance);
+        HPbar.value -= damage - player.Buff_Defance;
         Instantiate(DamageEffect, transform.position, Quaternion.identity);
         DamageEffect.text = damage.ToString();
 

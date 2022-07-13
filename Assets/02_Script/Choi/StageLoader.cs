@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StageLoader : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class StageLoader : MonoBehaviour
     [SerializeField] private UI_Move obj;
     [SerializeField] private UI_Move obj_Scene;
     [SerializeField] private ClearUI obj_Clear;
+    [SerializeField] private Slider obj_Slider;
 
     private Stage[] stages;
 
