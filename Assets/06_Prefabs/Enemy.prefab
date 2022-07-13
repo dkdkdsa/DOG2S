@@ -102,6 +102,7 @@ MonoBehaviour:
   speed: 2
   damage: 10
   HP: 100
+  money: 0
   damageEffect: {fileID: 8145910961867681739, guid: a66857df573e2874bba29932066a5983, type: 3}
   size: {x: 10, y: 2}
 --- !u!50 &690437430057890438
@@ -124,7 +125,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &690437430057890439
 Animator:
   serializedVersion: 3
