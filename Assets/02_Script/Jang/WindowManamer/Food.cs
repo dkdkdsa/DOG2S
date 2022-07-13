@@ -6,7 +6,7 @@ using UnityEngine;
 public class Food : ScriptableObject
 {
 
-    public float sell;
+    public int sell;
     public float buff_HP;
     public float buff_AttackPower;
 
