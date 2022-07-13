@@ -14,7 +14,11 @@ public class ClickManager : MonoBehaviour
 
         buff.Buff_Food(item.food);
 
-        PI.Money -= item.food.sell;
+        if (PI.Money >= item.food.sell)
+        {
+            PI.Money -= item.food.sell;
+        }
+        else { }
     }
 
     public void Click_Alcohol() 
@@ -26,8 +30,12 @@ public class ClickManager : MonoBehaviour
         Buff_Set buff = FindObjectOfType<Buff_Set>();
 
         buff.Buff_Alcohol(item.alcohol);
-
-        PI.Money -= item.alcohol.sell;
+        
+        if (PI.Money >= item.alcohol.sell)
+        {
+            PI.Money -= item.alcohol.sell;
+        }
+        else { }
 
     }
     

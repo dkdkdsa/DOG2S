@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4bb7e5e0aedb604186463d9fcfbb871, type: 3}
   m_Name: "\uB2ED\uB2E4\uB9AC"
   m_EditorClassIdentifier: 
-  sell: 200
-  buff_HP: 40
-  buff_AttackPower: 4
+  sell: 10000
+  buff_HP: 60
+  buff_AttackPower: 6
