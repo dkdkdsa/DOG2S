@@ -289,7 +289,7 @@ public class PlayerMove : MonoBehaviour
     IEnumerator AttackDelay()
     {
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         attackCool = false;
 
     }
