@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2504c55a83b7d94e8a2167696978b92, type: 3}
   m_Name: MainSceneLoad
   m_EditorClassIdentifier: 
-  scenes_name: 
+  scenes_name: TowerSide_ChoiDaeWon
   type: 0
