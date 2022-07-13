@@ -27,7 +27,7 @@ public class TextManager : MonoBehaviour
     {
 
         if(isWriteing == false && count < line.Length) StartCoroutine(WriteText());
-        else SceneManager.LoadScene("Start");
+        else if(isWriteing == false) SceneManager.LoadScene("Start");
 
     }
 
@@ -40,7 +40,8 @@ public class TextManager : MonoBehaviour
 
     IEnumerator WriteText()
     {
- 
+        
+        mainImage.color = Color.white;
         text.text = null;
 
         isWriteing = true;
