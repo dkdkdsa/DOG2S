@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -40,6 +41,22 @@ public class PlayerManager : MonoBehaviour
             animator.SetTrigger("Hurt");
 
         }
+
+    }
+
+    public void DieEvent()
+    {
+
+        StartCoroutine(Die());
+
+    }
+
+    IEnumerator Die()
+    {
+
+        yield return new WaitForSeconds(1f);
+
+        SceneManager.LoadScene("JangWheeseSong 1");
 
     }
 
