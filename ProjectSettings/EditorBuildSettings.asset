@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/01_Scene/Smithy.unity
     guid: 8e453f7109c104d468769dc22a948a98
   - enabled: 1
+    path: Assets/01_Scene/Factory.unity
+    guid: f0bb4a339519cdc40a421db5fab995b3
+  - enabled: 1
     path: Assets/01_Scene/Pub.unity
     guid: c28d4c0850ca3bb42b67d45d1834f54e
   - enabled: 1

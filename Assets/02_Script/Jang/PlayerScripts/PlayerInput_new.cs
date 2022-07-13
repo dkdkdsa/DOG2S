@@ -11,6 +11,7 @@ public class PlayerInput_new : MonoBehaviour
     RestaurantOpen RO;
     PubOpen PO;
     WellOpen WO;
+    FactoryOpen FO;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class PlayerInput_new : MonoBehaviour
         RO = FindObjectOfType<RestaurantOpen>();
         PO = FindObjectOfType<PubOpen>();
         WO = FindObjectOfType<WellOpen>();
+        FO = FindObjectOfType<FactoryOpen>();
     }
 
     // Update is called once per frame
