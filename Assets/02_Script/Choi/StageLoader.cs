@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StageLoader : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class StageLoader : MonoBehaviour
     [SerializeField] private UI_Move obj;
     [SerializeField] private UI_Move obj_Scene;
     [SerializeField] private ClearUI obj_Clear;
+    [SerializeField] private Slider obj_Slider;
 
     private Stage[] stages;
 
@@ -32,6 +34,10 @@ public class StageLoader : MonoBehaviour
 
         Load();
 
+        obj_Slider.maxValue = 100 + player.Buff_Hp;
+
+        obj_Slider.value = obj_Slider.maxValue;
+
     }
 
     public void Load()
@@ -47,7 +53,7 @@ public class StageLoader : MonoBehaviour
         
         if(player.AttackPower <= 0) player.AttackPower = 10;
         player.transform.position = stages[count].transform.position;
-        main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
+        main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);       
 
     }
 

@@ -103,7 +103,7 @@ MonoBehaviour:
   damage: 10
   HP: 100
   money: 0
-  damageEffect: {fileID: 8145910961867681739, guid: a66857df573e2874bba29932066a5983, type: 3}
+  damageEffect: {fileID: 2707350622559704875, guid: a2e8ad960384f5540b8a999161a971d5, type: 3}
   size: {x: 10, y: 2}
 --- !u!50 &690437430057890438
 Rigidbody2D:

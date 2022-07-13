@@ -14,6 +14,7 @@ public class Enemy_AI : MonoBehaviour
     [SerializeField] private TextMesh damageEffect;
     [SerializeField] private Vector2 size;
 
+    private BoxCollider2D boxCol;
     private int wapons;
     private Camera main_Camera;
     private bool isDie;
@@ -33,6 +34,7 @@ public class Enemy_AI : MonoBehaviour
     void Awake()
     {
 
+        boxCol = GetComponent<BoxCollider2D>();
         stageLoader = FindObjectOfType<StageLoader>().GetComponent<StageLoader>();
         main_Camera = FindObjectOfType<Camera>().GetComponent<Camera>();
         playerMove = FindObjectOfType<PlayerMove>().GetComponent<PlayerMove>();
@@ -47,6 +49,13 @@ public class Enemy_AI : MonoBehaviour
     {
 
         if(isKnockBack == false && isDie == false) Move();
+
+        if(Physics2D.OverlapBox(transform.position, new Vector2(boxCol.size.x, boxCol.size.y), 0, LayerMask.GetMask("Trap")) && isDie == false)
+        {
+
+            Die(0);
+
+        }
 
     }
 
@@ -163,7 +172,7 @@ public class Enemy_AI : MonoBehaviour
     public void AttackEvent()
     {
 
-        if(attackBox == true && playerMove.IsDie == false && playerMove.IsAttack == false && playerMove.IsSkill == false) playerManager.TakeDamage((int)Random.Range(damage, damage + 10f));
+        if(attackBox == true && playerMove.IsDie == false) playerManager.TakeDamage((int)Random.Range(damage, damage + 10f));
 
     }
 

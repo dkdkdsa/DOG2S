@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: "\uB3FC\uC9C0 \uD1B5\uAD6C\uC774"
   m_EditorClassIdentifier: 
   sell: 100000
-  buff_HP: 100
+  buff_HP: 10000000
   buff_AttackPower: 10

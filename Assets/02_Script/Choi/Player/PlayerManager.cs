@@ -18,7 +18,8 @@ public class PlayerManager : MonoBehaviour
     {
 
         animator = GetComponent<Animator>();
-        HPbar.value = 100f;
+
+
 
     }
 
@@ -30,6 +31,10 @@ public class PlayerManager : MonoBehaviour
 
             _rigidbody2D.velocity = Vector2.zero;
             player.IsDie = true;
+            PlayerPrefs.SetFloat("Buff_HP", 0);
+            PlayerPrefs.SetFloat("Buff_Defence", 0);
+            PlayerPrefs.SetFloat("Buff_AttackPower", 0);
+            PlayerPrefs.SetFloat("Buff_Speed", 0);
             animator.SetTrigger("Die");
 
         }
@@ -39,7 +44,7 @@ public class PlayerManager : MonoBehaviour
     public void TakeDamage(float damage)
     {
 
-        HPbar.value -= Mathf.Abs(damage - player.Buff_Hp - player.Buff_Defance);
+        HPbar.value -= damage - player.Buff_Defance;
         Instantiate(DamageEffect, transform.position, Quaternion.identity);
         DamageEffect.text = damage.ToString();
 
@@ -47,13 +52,17 @@ public class PlayerManager : MonoBehaviour
         {
             _rigidbody2D.velocity = Vector2.zero;
             player.IsDie = true;
+            PlayerPrefs.SetFloat("Buff_HP", 0);
+            PlayerPrefs.SetFloat("Buff_Defence", 0);
+            PlayerPrefs.SetFloat("Buff_AttackPower", 0);
+            PlayerPrefs.SetFloat("Buff_Speed", 0);
             animator.SetTrigger("Die");
 
         }
         else
         {
 
-            animator.SetTrigger("Hurt");
+            if(player.IsSkill == false && player.IsAttack == false) animator.SetTrigger("Hurt");
 
         }
 
