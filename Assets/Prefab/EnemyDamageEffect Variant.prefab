@@ -12,6 +12,10 @@ PrefabInstance:
       value: EnemyDamageEffect Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2815330008602060166, guid: 5eba98e642ca8924bb1e8977f2519aab, type: 3}
+      propertyPath: m_Text
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815330008602060166, guid: 5eba98e642ca8924bb1e8977f2519aab, type: 3}
       propertyPath: m_Color.rgba
       value: 4278190335
       objectReference: {fileID: 0}
