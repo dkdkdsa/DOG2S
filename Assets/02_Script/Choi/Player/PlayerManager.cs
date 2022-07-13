@@ -23,19 +23,9 @@ public class PlayerManager : MonoBehaviour
 
     }
 
-    private void Start()
-    {
-        
-
-
-
-        HPbar.value = HPbar.maxValue;
-    }
-
     private void Update()
     {
 
-        HPbar.maxValue = 100 + player.Buff_Hp;
         if (Physics2D.OverlapBox(transform.position, new Vector2(0.5f, 0.7f), 0, LayerMask.GetMask("Trap")) && player.IsDie == false)
         {
 

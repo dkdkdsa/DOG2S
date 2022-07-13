@@ -34,6 +34,10 @@ public class StageLoader : MonoBehaviour
 
         Load();
 
+        obj_Slider.maxValue = 100 + player.Buff_Hp;
+
+        obj_Slider.value = player.Buff_Hp;
+
     }
 
     public void Load()
@@ -49,7 +53,7 @@ public class StageLoader : MonoBehaviour
         
         if(player.AttackPower <= 0) player.AttackPower = 10;
         player.transform.position = stages[count].transform.position;
-        main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
+        main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);       
 
     }
 
