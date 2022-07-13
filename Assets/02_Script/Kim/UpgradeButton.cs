@@ -19,6 +19,11 @@ public class UpgradeButton : MonoBehaviour
         damage = 1;//데미지 초기값 설정
         notice.gameObject.SetActive(false); // 안내 텍스트 초기값 안보이게
         currentCost = PlayerPrefs.GetInt("Cost"); //강화에 필요한 돈 초기설정
+        weapon = PlayerPrefs.GetInt("Weapon");
+        damage = PlayerPrefs.GetFloat("Wapon_Damage");
+        if (damage == 0) damage = 0;
+        if (weapon == 0) weapon = 0; 
+        if (currentCost == 0) currentCost = 2000;
         costText.text = $"강화 : {currentCost}";
         weaponText.text = $"+{weapon}강";
         damageText.text = $"Damage : {damage}";
@@ -35,31 +40,32 @@ public class UpgradeButton : MonoBehaviour
 
         if (item.Money >= currentCost)
         {
-            weapon++;//강화수치 증가
-            switch (weapon)//강화 단계별 비용 증가
-            {
-                case 0:
-                    currentCost = 2000;
-                    break;
-                case 1:
-                    currentCost = 6000;
-                    break;
-                case 2:
-                    currentCost = 10000;
-                    break;
-                case 3:
-                    currentCost = 14000;
-                    break;
-                case 4:
-                    currentCost = 20000;
-                    break;
-                case 5:
-                    currentCost = 30000;
-                    break;
-                default:
-                    break;
-            }
             item.Money -= currentCost;
+            weapon++;//강화수치 증가
+
+            currentCost = weapon switch
+            {
+
+                0 => 2000,
+                1 => 10000,
+                2 => 40000,
+                3 => 100000,
+                5 => 200000,
+                _ => currentCost + 10000,
+
+            };
+
+            damage = weapon switch
+            {
+
+                0 => 2,
+                1 => 3,
+                2 => 4,
+                3 => 5,
+                4 => 6,
+             _ => damage + 1,
+            };
+
         }
         else
         {
@@ -69,29 +75,7 @@ public class UpgradeButton : MonoBehaviour
         PlayerPrefs.SetInt("Weapon", weapon);
         PlayerPrefs.SetInt("Cost", currentCost);
 
-        switch (weapon)
-        {
-            case 0:
-                damage = 1;
-                break;
-            case 1:
-                damage = 2;
-                break;
-            case 2:
-                damage = 3;
-                break;
-            case 3:
-                damage = 5;
-                break;
-            case 4:
-                damage = 7;
-                break;
-            case 5:
-                damage = 10;
-                break;
-            default:
-                break;
-        }
+
 
         PlayerPrefs.SetFloat("Wapon_Damage", damage);
         costText.text = $"강화 : {currentCost}";
