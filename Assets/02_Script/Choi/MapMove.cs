@@ -43,7 +43,7 @@ public class MapMove : MonoBehaviour
             if(count == 0)
             {
 
-                //SceneManager.LoadScene("Name");
+               SceneManager.LoadScene("JangWheeseSong 1");
                 Debug.Log(1);
             }
             else
