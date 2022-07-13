@@ -22,18 +22,30 @@ public class SkillMove : MonoBehaviour
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        Collider2D col = Physics2D.OverlapBox(transform.position, new Vector2(1, 1), 0, LayerMask.GetMask("Enemy"));
+        float pos = transform.rotation.y switch
+        {
 
-        if (col)
+            0 => 2,
+            180 => -2,
+            _ => -2,
+
+        };
+
+        Collider2D col = Physics2D.OverlapBox(transform.position, new Vector2(1, 1), 0, LayerMask.GetMask("Enemy"));
+        if (col != null)
         {
 
             Enemy_AI enemy = col.gameObject.GetComponent<Enemy_AI>();
-            enemy.TakeDamage(Random.Range(20, 30), playerMove.KnockBackPos);
-            Instantiate(explosionEffect, transform.position, Quaternion.identity);
-            Destroy(gameObject);
 
+            if (enemy.isDie == false)
+            {
+
+                enemy.TakeDamage((int)Random.Range(playerMove.AttackPower * 2, playerMove.AttackPower * 2.5f), pos);
+                Instantiate(explosionEffect, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+
+            }
         }
-
     }
 
 }

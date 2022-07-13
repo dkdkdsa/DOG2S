@@ -26,10 +26,22 @@ public class PlayerMove : MonoBehaviour
     private bool isDash;
     private bool isAttack;
     private bool attackCool;
+    private bool isDie;
+    private float buff_AttackPower;
+    private float buff_Defense;
+    private float buff_Speed;
+    private float buff_HP;
     private float dashPos;
     private float rotate_Value;
     private float knockBackPos;
+
     public float KnockBackPos => knockBackPos;
+    public float AttackPower { get { return attackPower; } set { attackPower = value;  } }
+    public float Buff_Defance { get { return buff_Defense; } set { buff_Defense = value;} }
+    public float Buff_AttackPower { get { return buff_AttackPower; } set { buff_AttackPower = value; } }
+    public float Buff_Speed { get { return buff_Speed; } set { buff_Speed = value; } }
+    public float Buff_Hp { get { return buff_HP; } set { buff_HP = value; } }
+    public bool IsDie { get { return isDie; } set { isDie = value; } }
 
     void Awake()
     {
@@ -43,71 +55,73 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
 
-        Jump();
-        Attack();
-        Skill();
-
-        float moveX = Input.GetAxisRaw("Horizontal");
-
-        Dash();
-
-        offset = moveX switch
+        if (!isDie)
         {
 
-            -1 => -1,
-            1 => 1,
-            0 => offset,
-            _ => offset,
+            float moveX = Input.GetAxisRaw("Horizontal");
+            Jump();
+            Attack();
+            Skill();
+            Dash();
 
-        };
+            offset = moveX switch
+            {
 
-        knockBackPos = moveX switch
-        {
+                -1 => -1,
+                1 => 1,
+                0 => offset,
+                _ => offset,
 
-            -1 => -2f,
-            1 => 2f,
-            0 => knockBackPos,
-            _ => knockBackPos,
+            };
 
-        };
+            knockBackPos = moveX switch
+            {
 
-        spriteRenderer.flipX = moveX switch
-        {
+                -1 => -2f,
+                1 => 2f,
+                0 => knockBackPos,
+                _ => knockBackPos,
+
+            };
+
+            spriteRenderer.flipX = moveX switch
+            {
 
 
-            -1 => true,
-            1 => false,
-            0 => spriteRenderer.flipX,
-            _ => spriteRenderer.flipX,
+                -1 => true,
+                1 => false,
+                0 => spriteRenderer.flipX,
+                _ => spriteRenderer.flipX,
 
-        };
+            };
 
-        rotate_Value = moveX switch
-        {
+            rotate_Value = moveX switch
+            {
 
-            -1 => 180,
-            1 => 0,
-            0 => rotate_Value,
-            _ => rotate_Value,
+                -1 => 180,
+                1 => 0,
+                0 => rotate_Value,
+                _ => rotate_Value,
 
-        };
+            };
 
-        dashPos = moveX switch
-        {
+            dashPos = moveX switch
+            {
 
-            -1 => -1,
-            1 => 1,
-            0 => dashPos,
-            _ => dashPos,
+                -1 => -1,
+                1 => 1,
+                0 => dashPos,
+                _ => dashPos,
 
-        };
+            };
 
+        }
     }
 
     void FixedUpdate()
     {
 
-        if(isAttack == false && isDash == false) Move();
+        if(isAttack == false && isDash == false && !isDie) Move();
 
     }
 
@@ -124,7 +138,7 @@ public class PlayerMove : MonoBehaviour
 
         float slowSpeed = moving ? 1.0f : 0.5f;
 
-        player_rigidbody.velocity = new Vector2(moveX * speed * slowSpeed, player_rigidbody.velocity.y);
+        player_rigidbody.velocity = new Vector2(moveX * (speed + buff_Speed) * slowSpeed, player_rigidbody.velocity.y);
         
 
     }
@@ -201,7 +215,7 @@ public class PlayerMove : MonoBehaviour
 
                 Enemy_AI enemy = item.GetComponent<Enemy_AI>();
 
-                if(enemy.isDie == false)
+                if(enemy.IsDie == false)
                 {
 
                     enemy.TakeDamage((int)Random.Range(attackPower, attackPower + 9), 0);

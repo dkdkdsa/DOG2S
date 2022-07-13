@@ -13,6 +13,11 @@ public class Enemy_AI : MonoBehaviour
     [SerializeField] private Vector2 size;
     [SerializeField] private Camera main_Camera;
 
+<<<<<<< Updated upstream
+    private bool isDie;
+=======
+    private PlayerMove playerMove;
+>>>>>>> Stashed changes
     private bool isKnockBack;
     private PlayerManager playerManager;
     private Animator animator;
@@ -22,11 +27,12 @@ public class Enemy_AI : MonoBehaviour
     private Collider2D box;
     private Collider2D attackBox;
 
-    public bool isDie;
+    public bool IsDie => isDie;
 
     void Awake()
     {
 
+        playerMove = FindObjectOfType<PlayerMove>().GetComponent<PlayerMove>();
         playerManager = FindObjectOfType<PlayerManager>().GetComponent<PlayerManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         enemy_rigidbody = GetComponent<Rigidbody2D>();
@@ -37,7 +43,7 @@ public class Enemy_AI : MonoBehaviour
     void Update()
     {
 
-        if(isKnockBack == false) Move();
+        if(isKnockBack == false && isDie == false) Move();
 
     }
 
@@ -47,7 +53,7 @@ public class Enemy_AI : MonoBehaviour
         box = Physics2D.OverlapBox(transform.position, size, 0, LayerMask.GetMask("Player"));
         attackBox = Physics2D.OverlapBox(transform.position, new Vector2(2, 2), 0, LayerMask.GetMask("Player"));
 
-        if (box)
+        if (box && playerMove.IsDie == false)
         {
 
             if(transform.position.x > box.transform.position.x)
@@ -68,7 +74,7 @@ public class Enemy_AI : MonoBehaviour
 
             }
 
-            if (attackBox)
+            if (attackBox )
             {
 
                 animator.SetBool("Walk", false);
@@ -126,6 +132,7 @@ public class Enemy_AI : MonoBehaviour
     private void Die(float knockBackPos)
     {
 
+        isDie = true;
         main_Camera.transform.DOShakePosition(0.3f, new Vector3(0.5f, 0, 0), 20, 0);
         animator.SetTrigger("Die");
         enemy_rigidbody.velocity = Vector2.zero;
