@@ -13,11 +13,8 @@ public class Enemy_AI : MonoBehaviour
     [SerializeField] private Vector2 size;
     [SerializeField] private Camera main_Camera;
 
-<<<<<<< Updated upstream
     private bool isDie;
-=======
     private PlayerMove playerMove;
->>>>>>> Stashed changes
     private bool isKnockBack;
     private PlayerManager playerManager;
     private Animator animator;

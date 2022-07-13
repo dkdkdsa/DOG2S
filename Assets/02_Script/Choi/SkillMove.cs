@@ -37,7 +37,7 @@ public class SkillMove : MonoBehaviour
 
             Enemy_AI enemy = col.gameObject.GetComponent<Enemy_AI>();
 
-            if (enemy.isDie == false)
+            if (enemy.IsDie == false)
             {
 
                 enemy.TakeDamage((int)Random.Range(playerMove.AttackPower * 2, playerMove.AttackPower * 2.5f), pos);
