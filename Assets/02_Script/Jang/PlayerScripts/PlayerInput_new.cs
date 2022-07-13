@@ -10,6 +10,7 @@ public class PlayerInput_new : MonoBehaviour
     TownOpen TO;
     RestaurantOpen RO;
     PubOpen PO;
+    WellOpen WO;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,7 @@ public class PlayerInput_new : MonoBehaviour
         TO = FindObjectOfType<TownOpen>();
         RO = FindObjectOfType<RestaurantOpen>();
         PO = FindObjectOfType<PubOpen>();
+        WO = FindObjectOfType<WellOpen>();
     }
 
     // Update is called once per frame
@@ -42,6 +44,10 @@ public class PlayerInput_new : MonoBehaviour
         if (PO.pub_possible == true && Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene("Pub");
+        }
+        if (WO.welln_possible == true && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Well");
         }
     }
 }
