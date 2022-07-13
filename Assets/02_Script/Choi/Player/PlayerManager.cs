@@ -31,6 +31,10 @@ public class PlayerManager : MonoBehaviour
 
             _rigidbody2D.velocity = Vector2.zero;
             player.IsDie = true;
+            PlayerPrefs.SetFloat("Buff_HP", 0);
+            PlayerPrefs.SetFloat("Buff_Defence", 0);
+            PlayerPrefs.SetFloat("Buff_AttackPower", 0);
+            PlayerPrefs.SetFloat("Buff_Speed", 0);
             animator.SetTrigger("Die");
 
         }
@@ -48,13 +52,17 @@ public class PlayerManager : MonoBehaviour
         {
             _rigidbody2D.velocity = Vector2.zero;
             player.IsDie = true;
+            PlayerPrefs.SetFloat("Buff_HP", 0);
+            PlayerPrefs.SetFloat("Buff_Defence", 0);
+            PlayerPrefs.SetFloat("Buff_AttackPower", 0);
+            PlayerPrefs.SetFloat("Buff_Speed", 0);
             animator.SetTrigger("Die");
 
         }
         else
         {
 
-            animator.SetTrigger("Hurt");
+            if(player.IsSkill == false && player.IsAttack == false) animator.SetTrigger("Hurt");
 
         }
 

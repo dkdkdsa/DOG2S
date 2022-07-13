@@ -19,6 +19,7 @@ public class TextManager : MonoBehaviour
     {
 
         text.text = null;
+        mainImage.sprite = null;
 
     }
 
@@ -46,7 +47,7 @@ public class TextManager : MonoBehaviour
 
         char[] line_Char = line[count].ToCharArray();
 
-       // mainImage.sprite = images[count];
+       mainImage.sprite = images[count];
 
         for(int i = 0; i < line_Char.Length; i++)
         {

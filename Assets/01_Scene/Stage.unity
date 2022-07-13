@@ -16138,6 +16138,7 @@ MonoBehaviour:
   obj: {fileID: 2136597358}
   obj_Scene: {fileID: 1614940770}
   obj_Clear: {fileID: 2003039247}
+  obj_Slider: {fileID: 393912549}
   money: 0
   wapons: 0
 --- !u!4 &2003039246
