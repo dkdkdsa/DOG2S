@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ClickManager : MonoBehaviour
 {
+    void Awake()
+    {
+        text.gameObject.SetActive(false);
+    }
+    public Text text;
     public void Click_Food()
     {
         PlayerItem PI = FindObjectOfType<PlayerItem>();
@@ -18,7 +24,10 @@ public class ClickManager : MonoBehaviour
         {
             PI.Money -= item.food.sell;
         }
-        else { }
+        else 
+        {
+            StartCoroutine(Warmming());
+        }
     }
 
     public void Click_Alcohol() 
@@ -35,8 +44,16 @@ public class ClickManager : MonoBehaviour
         {
             PI.Money -= item.alcohol.sell;
         }
-        else { }
+        else 
+        {
+            StartCoroutine(Warmming());
+        }
 
     }
-    
+    IEnumerator Warmming()
+    {
+        text.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.7f);
+        text.gameObject.SetActive(false);
+    }
 }

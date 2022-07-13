@@ -13,6 +13,15 @@ public class ShopManager : MonoBehaviour
         CM = FindObjectOfType<CamereMove>();
         shake = FindObjectOfType<Shake>();
         TowerEnergy = PlayerPrefs.GetFloat("TowerEarthcore", 0);
+
+        int i = PlayerPrefs.GetInt("Start");
+        if (i == 0)
+        {
+
+            PlayerPrefs.SetInt("Start", 1);
+            Debug.Log(234);
+            TowerEnergy = 100;
+        }
     }
 
     // Update is called once per frame

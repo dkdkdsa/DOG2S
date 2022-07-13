@@ -14,7 +14,7 @@ public class Wheel : MonoBehaviour
     private void Start()
     {
         
-        _camera.transform.position = Vector3.zero;
+        _camera.transform.position = new Vector3(0, 0, -10);
 
     }
 

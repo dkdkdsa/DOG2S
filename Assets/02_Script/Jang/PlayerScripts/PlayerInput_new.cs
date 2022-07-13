@@ -9,7 +9,6 @@ public class PlayerInput_new : MonoBehaviour
     SmithyOpen SO;
     TownOpen TO;
     RestaurantOpen RO;
-    PubOpen PO;
     WellOpen WO;
     FactoryOpen FO;
     // Start is called before the first frame update
@@ -19,7 +18,6 @@ public class PlayerInput_new : MonoBehaviour
         SO = FindObjectOfType<SmithyOpen>();
         TO = FindObjectOfType<TownOpen>();
         RO = FindObjectOfType<RestaurantOpen>();
-        PO = FindObjectOfType<PubOpen>();
         WO = FindObjectOfType<WellOpen>();
         FO = FindObjectOfType<FactoryOpen>();
     }
@@ -42,10 +40,6 @@ public class PlayerInput_new : MonoBehaviour
         if (RO.restaurant_possible == true && Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene("Pestaurant");
-        }
-        if (PO.pub_possible == true && Input.GetKeyDown(KeyCode.E))
-        {
-            SceneManager.LoadScene("Pub");
         }
         if (WO.welln_possible == true && Input.GetKeyDown(KeyCode.E))
         {

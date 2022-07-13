@@ -240,11 +240,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 614499745}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 77}
   m_SizeDelta: {x: 1200, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &45689676
@@ -280,7 +280,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC5B4\uCA4C\uACE0\uC800\uCA4C\uACE0\u314E\u3139\u3140\u3140\u3140\u3140\u314E\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139\u3139"
+  m_Text: "\uC5EC\uAE30\uB294 \uB9C8\uC744\uD68C\uAD00\uC785\uB2C8\uB2E4,  E\uD0A4\uB97C
+    \uB20C\uB7EC \uCC3D\uC744 \uB2EB\uAC70\uB098 \uAC74\uBB3C\uB85C \uB4E4\uC5B4\uAC00\uB294
+    \uB4F1, \uC5EC\uB7EC \uC0C1\uD638\uC791\uC6A9\uC744 \uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.
+    \uC774\uC81C\uBD80\uD130 \uB9C8\uC744\uC758 \uC2DC\uC124\uC5D0 \uB300\uD574 \uC54C\uB824\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4."
 --- !u!222 &45689677
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -751,85 +754,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &202771486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 202771487}
-  - component: {fileID: 202771489}
-  - component: {fileID: 202771488}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &202771487
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202771486}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 614499745}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 300}
-  m_SizeDelta: {x: 1000, y: 200}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &202771488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202771486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 100
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\rQuest : \uD638\uB864\uB85C\uB85C\uB85C"
---- !u!222 &202771489
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202771486}
-  m_CullTransparentMesh: 1
 --- !u!1 &307336546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,7 +1460,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 734859875}
-  - {fileID: 202771487}
   - {fileID: 45689675}
   m_Father: {fileID: 133415096}
   m_RootOrder: 1
@@ -1883,9 +1806,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button_text: {fileID: 1078271817}
-  questName: {fileID: 202771488}
+  questName: {fileID: 0}
   questString: {fileID: 45689676}
-  quest: 0
+  quest: 1
   mission_clear: 0
   situation: 
   state: 0
@@ -2004,7 +1927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 431, y: -300}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734859876
@@ -2727,7 +2650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC218\uB77D"
+  m_Text: "\uB2E4\uC74C"
 --- !u!222 &1078271818
 CanvasRenderer:
   m_ObjectHideFlags: 0
