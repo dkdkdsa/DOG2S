@@ -60,7 +60,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
 
-        if (!isDie && !isClear)
+        if (!isDie && !isClear && !isDash)
         {
 
             float moveX = Input.GetAxisRaw("Horizontal");
