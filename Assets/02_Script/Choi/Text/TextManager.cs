@@ -26,14 +26,14 @@ public class TextManager : MonoBehaviour
     {
 
         if(isWriteing == false && count < line.Length) StartCoroutine(WriteText());
-        else SceneManager.LoadScene("Name");
+        else SceneManager.LoadScene("Start");
 
     }
 
     public void Skip()
     {
 
-        SceneManager.LoadScene("Name");
+        SceneManager.LoadScene("Start");
 
     }
 
