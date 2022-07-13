@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class PlayerItem : MonoBehaviour
 {
-    public float Money;
-    public float Earthcore;
+    public int Money;
+    public int Earthcore;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        Money = PlayerPrefs.GetFloat("Money", 0);
-        Earthcore = PlayerPrefs.GetFloat("Earthcore", 0);
+        Money = PlayerPrefs.GetInt("Money");
+        Earthcore = PlayerPrefs.GetInt("Earthcore");
     }
 
     // Update is called once per frame
     void Update()
     {
-        PlayerPrefs.SetFloat("Money", Money);
-        PlayerPrefs.SetFloat("Earthcore", Earthcore);
+        PlayerPrefs.SetInt("Money", Money);
+        PlayerPrefs.SetInt("Earthcore", Earthcore);
     }
 }

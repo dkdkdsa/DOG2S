@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private Slider HPbar;
     [SerializeField] private TextMesh DamageEffect;
     [SerializeField] private PlayerMove player;
+    [SerializeField] private Rigidbody2D _rigidbody2D;
 
     private Animator animator;
 
@@ -18,6 +19,20 @@ public class PlayerManager : MonoBehaviour
 
         animator = GetComponent<Animator>();
         HPbar.value = 100f;
+
+    }
+
+    private void Update()
+    {
+
+        if (Physics2D.OverlapBox(transform.position, new Vector2(0.5f, 0.7f), 0, LayerMask.GetMask("Trap")) && player.IsDie == false)
+        {
+
+            _rigidbody2D.velocity = Vector2.zero;
+            player.IsDie = true;
+            animator.SetTrigger("Die");
+
+        }
 
     }
 
@@ -30,7 +45,7 @@ public class PlayerManager : MonoBehaviour
 
         if(HPbar.value <= 0)
         {
-
+            _rigidbody2D.velocity = Vector2.zero;
             player.IsDie = true;
             animator.SetTrigger("Die");
 

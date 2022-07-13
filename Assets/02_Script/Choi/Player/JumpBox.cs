@@ -17,14 +17,19 @@ public class JumpBox : MonoBehaviour
     private void Update()
     {
 
-        //Debug.Log(isGround);
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        Debug.Log(collision.name);
+        isGround = true;
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+
         isGround = true;
 
     }
@@ -33,6 +38,7 @@ public class JumpBox : MonoBehaviour
     {
         
         isGround = false;
+
     }
 
 }

@@ -24,11 +24,6 @@ public class Wheel : MonoBehaviour
 
         value= Input.GetAxis("Mouse ScrollWheel") * speed;
         
-       //Debug.Log(_camera.fieldOfView);
-
-        _camera.transform.position -= new Vector3(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y")) * Time.deltaTime * move_Speed;
-        _camera.transform.position = new Vector3(_camera.transform.position.x, _camera.transform.position.y, -10);
-        
         if(_camera.orthographicSize > 5 && value < 0)
         {
 
