@@ -19,6 +19,7 @@ public class TextManager : MonoBehaviour
     {
 
         text.text = null;
+        mainImage.sprite = null;
 
     }
 
@@ -26,7 +27,7 @@ public class TextManager : MonoBehaviour
     {
 
         if(isWriteing == false && count < line.Length) StartCoroutine(WriteText());
-        else SceneManager.LoadScene("Start");
+        else if(isWriteing == false) SceneManager.LoadScene("Start");
 
     }
 
@@ -39,14 +40,15 @@ public class TextManager : MonoBehaviour
 
     IEnumerator WriteText()
     {
- 
+        
+        mainImage.color = Color.white;
         text.text = null;
 
         isWriteing = true;
 
         char[] line_Char = line[count].ToCharArray();
 
-       // mainImage.sprite = images[count];
+       mainImage.sprite = images[count];
 
         for(int i = 0; i < line_Char.Length; i++)
         {
