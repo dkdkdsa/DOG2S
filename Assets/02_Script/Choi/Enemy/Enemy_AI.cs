@@ -33,7 +33,7 @@ public class Enemy_AI : MonoBehaviour
     void Awake()
     {
 
-        stageLoader = FindObjectOfType<StageLoader>().GetComponent<StageLoader>();
+        //stageLoader = FindObjectOfType<StageLoader>().GetComponent<StageLoader>();
         main_Camera = FindObjectOfType<Camera>().GetComponent<Camera>();
         playerMove = FindObjectOfType<PlayerMove>().GetComponent<PlayerMove>();
         playerManager = FindObjectOfType<PlayerManager>().GetComponent<PlayerManager>();
