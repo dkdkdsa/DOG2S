@@ -14,9 +14,12 @@ public class SkillMove : MonoBehaviour
     {
         
         playerMove = FindObjectOfType<PlayerMove>();
-
+        Invoke("Destroy", 1.5f);
     }
-
+    void Destroy()
+    {
+        Destroy(gameObject);
+    }
     float knockBackPos;
     void Update()
     {
