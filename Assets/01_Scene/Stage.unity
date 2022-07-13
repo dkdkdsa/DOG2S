@@ -1740,6 +1740,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 690437430057890441, guid: 45bfd154e823eea44b933258b0e5ddf4, type: 3}
+      propertyPath: money
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 690437430057890445, guid: 45bfd154e823eea44b933258b0e5ddf4, type: 3}
       propertyPath: m_Name
       value: Enemy

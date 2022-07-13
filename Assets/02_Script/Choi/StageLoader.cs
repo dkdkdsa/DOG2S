@@ -22,6 +22,8 @@ public class StageLoader : MonoBehaviour
     {
         
         stages = stageBox.GetComponentsInChildren<Stage>();
+        money = PlayerPrefs.GetInt("Money");
+        core = PlayerPrefs.GetInt("Earthcore");
 
     }
 
@@ -36,12 +38,12 @@ public class StageLoader : MonoBehaviour
     {
 
         int count = PlayerPrefs.GetInt("Stage");
-
         player.AttackPower = PlayerPrefs.GetFloat("Damage");
         player.Buff_Hp = PlayerPrefs.GetFloat("Buff_HP");
         player.Buff_Defance = PlayerPrefs.GetFloat("Buff_Defence");
         player.Buff_AttackPower = PlayerPrefs.GetFloat("Buff_AttackPower");
         player.Buff_Speed = PlayerPrefs.GetFloat("Buff_Speed");
+        player.WaponAttackPower = PlayerPrefs.GetFloat("Wapon_Damage");
         
         if(player.AttackPower <= 0) player.AttackPower = 10;
         player.transform.position = stages[count].transform.position;
@@ -64,7 +66,7 @@ public class StageLoader : MonoBehaviour
 
         };
 
-        PlayerPrefs.SetInt("Core", core);
+        PlayerPrefs.SetInt("Earthcore", core);
         PlayerPrefs.SetInt("Wapons", wapons);
         PlayerPrefs.SetInt("Money", money);
         obj_Clear.Disable();

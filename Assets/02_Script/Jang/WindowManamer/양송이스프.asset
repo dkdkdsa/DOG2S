@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: "\uC591\uC1A1\uC774\uC2A4\uD504"
   m_EditorClassIdentifier: 
   buff_HP: 10
-  buff_AttackPower: 2
+  buff_AttackPower: 200
