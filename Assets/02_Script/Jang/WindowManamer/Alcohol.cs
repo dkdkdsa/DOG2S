@@ -6,6 +6,7 @@ using UnityEngine;
 public class Alcohol : ScriptableObject
 {
 
+    public float sell;
     public float buff_Speed;
     public float buff_Defence;
 

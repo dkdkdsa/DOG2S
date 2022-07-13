@@ -21,9 +21,11 @@ public class Shake : MonoBehaviour
         Vector3 zeee = new Vector3(0, shake, 0);
         while (true)
         {
+            zeee = new Vector3(0, shake, 0);
             yield return new WaitForSeconds(0.5f);
             for (int i = 0; i < 3; i++)
             {
+                zeee = new Vector3(0, shake, 0);
                 transform.position += zeee;
                 yield return new WaitForSeconds(0.03f);
                 transform.position -= zeee;
