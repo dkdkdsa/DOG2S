@@ -27,6 +27,7 @@ public class PlayerMove : MonoBehaviour
     private bool isAttack;
     private bool attackCool;
     private bool isDie;
+    private bool isClear;
     private float buff_AttackPower;
     private float buff_Defense;
     private float buff_Speed;
@@ -43,6 +44,8 @@ public class PlayerMove : MonoBehaviour
     public float Buff_Hp { get { return buff_HP; } set { buff_HP = value; } }
     public bool IsDie { get { return isDie; } set { isDie = value; } }
 
+    public bool IsClear { get { return isClear; } set { isClear = value; } }
+
     void Awake()
     {
      
@@ -55,7 +58,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
 
-        if (!isDie)
+        if (!isDie && !isClear)
         {
 
             float moveX = Input.GetAxisRaw("Horizontal");
@@ -121,7 +124,7 @@ public class PlayerMove : MonoBehaviour
     void FixedUpdate()
     {
 
-        if(isAttack == false && isDash == false && !isDie) Move();
+        if(isAttack == false && isDash == false && !isDie && !isClear) Move();
 
     }
 

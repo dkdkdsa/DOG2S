@@ -6,13 +6,16 @@ using DG.Tweening;
 public class Enemy_AI : MonoBehaviour
 {
 
+    [SerializeField] private bool use_KnockBack;
     [SerializeField] private float speed;
     [SerializeField] private float damage;
     [SerializeField] private float HP;
+    [SerializeField] private int money;
     [SerializeField] private TextMesh damageEffect;
     [SerializeField] private Vector2 size;
-    [SerializeField] private Camera main_Camera;
 
+    private int wapons;
+    private Camera main_Camera;
     private bool isDie;
     private PlayerMove playerMove;
     private bool isKnockBack;
@@ -23,12 +26,15 @@ public class Enemy_AI : MonoBehaviour
     private Vector2 move;
     private Collider2D box;
     private Collider2D attackBox;
+    private StageLoader stageLoader;
 
     public bool IsDie => isDie;
 
     void Awake()
     {
 
+        stageLoader = FindObjectOfType<StageLoader>().GetComponent<StageLoader>();
+        main_Camera = FindObjectOfType<Camera>().GetComponent<Camera>();
         playerMove = FindObjectOfType<PlayerMove>().GetComponent<PlayerMove>();
         playerManager = FindObjectOfType<PlayerManager>().GetComponent<PlayerManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -60,7 +66,6 @@ public class Enemy_AI : MonoBehaviour
                 animator.SetBool("Walk", true);
                 move = new Vector2(-1 * speed, enemy_rigidbody.velocity.y);
                 
-
             }
             else if(transform.position.x < box.transform.position.x)
             {
@@ -71,7 +76,7 @@ public class Enemy_AI : MonoBehaviour
 
             }
 
-            if (attackBox )
+            if (attackBox)
             {
 
                 animator.SetBool("Walk", false);
@@ -104,7 +109,7 @@ public class Enemy_AI : MonoBehaviour
 
         if(HP > 0)
         {
-            if(isKnockBack == false)
+            if(isKnockBack == false && use_KnockBack == false)
             {
 
                 transform.position = new Vector2(transform.position.x + knockBackPos, transform.position.y + 0.5f);
@@ -122,8 +127,6 @@ public class Enemy_AI : MonoBehaviour
 
         }
 
-
-
     }
 
     private void Die(float knockBackPos)
@@ -135,6 +138,24 @@ public class Enemy_AI : MonoBehaviour
         enemy_rigidbody.velocity = Vector2.zero;
         enemy_rigidbody.gravityScale = 1;
         enemy_rigidbody.AddForce(new Vector2(knockBackPos * 2, 3f) * 1, ForceMode2D.Impulse);
+        stageLoader.money += money;
+
+        int n = Random.Range(1, 11);
+
+        wapons = n switch
+        {
+
+            10 => 1,
+            9 => 1,
+            8 => 1,
+            7 => 1,
+            _ => 0,
+
+
+        };
+
+        stageLoader.wapons += wapons;
+
         StartCoroutine(Disappear());
 
     }
@@ -150,7 +171,6 @@ public class Enemy_AI : MonoBehaviour
     {
 
         yield return new WaitForSeconds(0.1f);
-
 
     }
     IEnumerator KnockCoolTime()

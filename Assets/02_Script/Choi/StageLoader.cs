@@ -10,9 +10,13 @@ public class StageLoader : MonoBehaviour
     [SerializeField] private Camera main_Camear;
     [SerializeField] private UI_Move obj;
     [SerializeField] private UI_Move obj_Scene;
+    [SerializeField] private ClearUI obj_Clear;
 
-    private float cur_Damage;
     private Stage[] stages;
+
+    private int core;
+    public int money;
+    public int wapons;
 
     void Awake()
     {
@@ -32,13 +36,13 @@ public class StageLoader : MonoBehaviour
     {
 
         int count = PlayerPrefs.GetInt("Stage");
-        player.AttackPower = PlayerPrefs.GetFloat("Damage");
 
+        player.AttackPower = PlayerPrefs.GetFloat("Damage");
         player.Buff_Hp = PlayerPrefs.GetFloat("Buff_HP");
         player.Buff_Defance = PlayerPrefs.GetFloat("Buff_Defence");
         player.Buff_AttackPower = PlayerPrefs.GetFloat("Buff_AttackPower");
         player.Buff_Speed = PlayerPrefs.GetFloat("Buff_Speed");
-
+        
         if(player.AttackPower <= 0) player.AttackPower = 10;
         player.transform.position = stages[count].transform.position;
         main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
@@ -48,6 +52,22 @@ public class StageLoader : MonoBehaviour
     public void LocdScenes()
     {
 
+        int count = PlayerPrefs.GetInt("Stage");
+
+        core = count switch
+        {
+
+            3 => 3,
+            6 => 3,
+            9 => 3,
+            _ => 1,
+
+        };
+
+        PlayerPrefs.SetInt("Core", core);
+        PlayerPrefs.SetInt("Wapons", wapons);
+        PlayerPrefs.SetInt("Money", money);
+        obj_Clear.Disable();
         obj_Scene.Lode(true);
         PlayerPrefs.SetInt("Stage", 0);
 
@@ -56,6 +76,7 @@ public class StageLoader : MonoBehaviour
     public void LoadNext()
     {
         int count = PlayerPrefs.GetInt("Stage");
+        obj_Clear.Disable();
 
         if(count == 9)
         {
