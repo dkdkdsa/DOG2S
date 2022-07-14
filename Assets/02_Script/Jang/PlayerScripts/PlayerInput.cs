@@ -41,13 +41,5 @@ public class PlayerInput : MonoBehaviour
             window.SetActive(false);
             window_open = false;
         }
-        Out();
-    }
-    void Out()
-    {
-        if (-2 <= transform.position.x && transform.position.x <= 2 && transform.position.y <= -4)
-        {
-            SceneManager.LoadScene("JangWheeseSong 1");
-        }
     }
 }

@@ -8,6 +8,7 @@ public class IconManager : MonoBehaviour
     public GameObject RestaurantIcon;
     public GameObject TownIcon;
     public GameObject DungeonIcon;
+
     public bool icon_on;
     // Start is called before the first frame update
     void Start()
