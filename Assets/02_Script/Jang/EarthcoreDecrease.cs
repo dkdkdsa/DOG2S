@@ -9,7 +9,7 @@ public class EarthcoreDecrease : MonoBehaviour
     void Start()
     {
         SM = FindObjectOfType<ShopManager>();
-        InvokeRepeating("Ed", 60, 60);
+        InvokeRepeating("Ed", 1, 60);
     }
 
     // Update is called once per frame

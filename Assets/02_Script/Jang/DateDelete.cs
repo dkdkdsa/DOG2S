@@ -15,7 +15,7 @@ public class DateDelete : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SM.TowerEnergy = 0;
+            //SM.TowerEnergy = 0;
             PI.Money = 9999999;
             PI.Earthcore = 100;
             PlayerPrefs.DeleteAll();
