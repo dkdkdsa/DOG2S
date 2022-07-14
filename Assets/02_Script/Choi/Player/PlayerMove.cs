@@ -1,0 +1,297 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using DG.Tweening;
+
+public class PlayerMove : MonoBehaviour
+{
+
+    [SerializeField] private float speed;
+    [SerializeField] private float JumpPower;
+    [SerializeField] private float attackPower;
+    [SerializeField] private float offset;
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private Vector2 attackBoxSize;
+    [SerializeField] private JumpBox jumpBox;
+    [SerializeField] private Camera cam;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject skillEffect;
+    [SerializeField] private Gravity gravity;
+
+    private Animator animator;
+    private Rigidbody2D player_rigidbody;
+    private bool isSkill;
+    private bool moving;
+    private bool dashCool;
+    private bool isDash;
+    private bool isAttack;
+    private bool attackCool;
+    private bool isDie;
+    private bool isClear;
+    private float buff_AttackPower;
+    private float buff_Defense;
+    private float buff_Speed;
+    private float buff_HP;
+    private float dashPos;
+    private float waponAttackPower;
+    private float rotate_Value;
+    private float knockBackPos;
+
+    public bool IsAttack => isAttack;
+    public bool IsSkill => isSkill;
+    public float KnockBackPos => knockBackPos;
+    public float AttackPower { get { return attackPower; } set { attackPower = value;  } }
+    public float Buff_Defance { get { return buff_Defense; } set { buff_Defense = value;} }
+    public float Buff_AttackPower { get { return buff_AttackPower; } set { buff_AttackPower = value; } }
+    public float Buff_Speed { get { return buff_Speed; } set { buff_Speed = value; } }
+    public float Buff_Hp { get { return buff_HP; } set { buff_HP = value; } }
+    public float WaponAttackPower { get { return waponAttackPower; } set { waponAttackPower = value; } }
+    public bool IsDie { get { return isDie; } set { isDie = value; } }
+    public bool IsClear { get { return isClear; } set { isClear = value; } }
+
+    void Awake()
+    {
+     
+        animator = GetComponent<Animator>();
+        player_rigidbody = GetComponent<Rigidbody2D>();
+        
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (!isDie && !isClear && !isDash)
+        {
+
+            float moveX = Input.GetAxisRaw("Horizontal");
+            Jump();
+            Attack();
+            Skill();
+            Dash();
+
+            offset = moveX switch
+            {
+
+                -1 => -1,
+                1 => 1,
+                0 => offset,
+                _ => offset,
+
+            };
+
+            knockBackPos = moveX switch
+            {
+
+                -1 => -2f,
+                1 => 2f,
+                0 => knockBackPos,
+                _ => knockBackPos,
+
+            };
+
+            spriteRenderer.flipX = moveX switch
+            {
+
+
+                -1 => true,
+                1 => false,
+                0 => spriteRenderer.flipX,
+                _ => spriteRenderer.flipX,
+
+            };
+
+            rotate_Value = moveX switch
+            {
+
+                -1 => 180,
+                1 => 0,
+                0 => rotate_Value,
+                _ => rotate_Value,
+
+            };
+
+            dashPos = moveX switch
+            {
+
+                -1 => -1,
+                1 => 1,
+                0 => dashPos,
+                _ => dashPos,
+
+            };
+
+        }
+    }
+
+    void FixedUpdate()
+    {
+
+        if(isAttack == false && isDash == false && !isDie && !isClear) Move();
+
+    }
+
+    private void Move()
+    {
+
+        float moveX = Input.GetAxis("Horizontal");
+        float inputRaw = Input.GetAxisRaw("Horizontal");
+
+        if (inputRaw != 0) moving = true;
+        else moving = false;
+
+       animator.SetBool("Walk", moving);
+
+        float slowSpeed = moving ? 1.0f : 0.5f;
+
+        player_rigidbody.velocity = new Vector2(moveX * (speed + buff_Speed) * slowSpeed, player_rigidbody.velocity.y);
+        
+
+    }
+
+    private void Dash()
+    {
+
+        if(Input.GetKeyDown(KeyCode.LeftShift) && dashCool == false && isAttack == false)
+        {
+
+            dashCool = true;
+            player_rigidbody.velocity = Vector2.zero;
+            player_rigidbody.AddForce(new Vector2(dashPos, 0) * dashSpeed, ForceMode2D.Impulse);
+            player_rigidbody.gravityScale = 0;
+            gravity.enabled = false;
+            animator.SetTrigger("Dash");
+            isDash = true;
+           
+        }
+
+    }
+
+    private void Jump()
+    {
+
+        if (jumpBox.IsGround() && Input.GetKeyDown(KeyCode.Space))
+        {
+
+            player_rigidbody.AddForce(Vector2.up * JumpPower, ForceMode2D.Impulse);
+
+        }
+
+    }
+
+    private void Attack()
+    {
+
+        if (Input.GetMouseButtonDown(0) && isAttack == false && isDash ==false && attackCool == false)
+        {
+
+            animator.SetTrigger("Attack");
+            isAttack = true;
+            attackCool = true;
+
+        }
+
+    }
+
+    private void Skill()
+    {
+
+        if (Input.GetMouseButtonDown(1) && isAttack == false && isSkill == false)
+        {
+
+            animator.SetTrigger("Skill");
+
+            isSkill = true;
+
+        }
+
+    }
+
+    
+
+    public void Attack_Event()
+    {
+
+        Collider2D[] attack = Physics2D.OverlapBoxAll(new Vector2(transform.position.x + offset, transform.position.y), attackBoxSize, 0, LayerMask.GetMask("Enemy"));
+
+        if(attack != null)
+        {
+
+            foreach(var item in attack)
+            {
+
+                Enemy_AI enemy = item.GetComponent<Enemy_AI>();
+
+                if(enemy.IsDie == false)
+                {
+
+                    enemy.TakeDamage((int)Random.Range(attackPower + buff_AttackPower + waponAttackPower, attackPower + buff_AttackPower  + waponAttackPower + 9), 0);
+
+                }
+
+            }
+
+        }
+
+    }
+    
+    public void SkillDelay()
+    {
+
+        StartCoroutine(Delay());
+
+    }
+    public void AttackDelayEvent()
+    {
+
+        StartCoroutine(AttackDelay());
+        isAttack = false;
+
+    }
+
+    public void DashEnd()
+    {
+
+        isDash = false;
+        player_rigidbody.gravityScale = 1;
+        player_rigidbody.velocity = Vector2.zero;
+        gravity.enabled = true;
+        StartCoroutine(DashDelay());
+
+    }
+
+    public void SkillEffect()
+    {
+
+        Instantiate(skillEffect, transform.position, Quaternion.Euler(0, rotate_Value, 0));
+
+    }
+
+    IEnumerator Delay()
+    {
+
+        yield return new WaitForSeconds(1f);
+
+        isSkill = false;
+
+    }
+
+    IEnumerator DashDelay()
+    {
+
+        yield return new WaitForSeconds(1.5f);
+
+        dashCool = false;
+
+    }
+
+    IEnumerator AttackDelay()
+    {
+
+        yield return new WaitForSeconds(0.1f);
+        attackCool = false;
+
+    }
+
+}
