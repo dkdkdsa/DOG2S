@@ -18,7 +18,7 @@ public class CamereMove : MonoBehaviour
         tilemap.transform.position += Vector3.left * speed * Time.deltaTime;
         if (tilemap.transform.position.x <= -60)
         {
-            transform.position += new Vector3(0, 0, 0);
+            tilemap.transform.position = new Vector3(0, 0, 0);
         }
     }
 }
