@@ -8,6 +8,9 @@ public class Wheel : MonoBehaviour
     [SerializeField] private Camera _camera;
     [SerializeField] private float speed;
     [SerializeField] private float move_Speed;
+    [SerializeField] private AudioSource _source;
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioSource audioSource;
 
     private float value;
 
@@ -24,13 +27,13 @@ public class Wheel : MonoBehaviour
 
         value= Input.GetAxis("Mouse ScrollWheel") * speed;
         
-        if(_camera.orthographicSize > 12 && value < 0)
+        if(_camera.orthographicSize >= 12 && value < 0)
         {
 
             _camera.orthographicSize = 12f;
 
         }
-        else if(_camera.orthographicSize < 0.5f)
+        else if(_camera.orthographicSize <= 0.5f && value >= 0)
         {
 
             _camera.orthographicSize = 0.5f;
@@ -40,10 +43,13 @@ public class Wheel : MonoBehaviour
         {
 
             _camera.orthographicSize -=  value;
-
+            _source.volume -= value/10;
+            audioSource.volume -= value/10;
+            source.volume += value/10;
 
         }
 
+        
 
     }
 }

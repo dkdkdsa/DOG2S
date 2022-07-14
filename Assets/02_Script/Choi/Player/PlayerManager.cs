@@ -19,8 +19,6 @@ public class PlayerManager : MonoBehaviour
 
         animator = GetComponent<Animator>();
 
-
-
     }
 
     private void Update()

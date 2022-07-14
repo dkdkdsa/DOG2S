@@ -8,18 +8,24 @@ public class SkillMove : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private GameObject explosionEffect;
 
+    private AudioSource audioSource;
     private PlayerMove playerMove;
+    private bool i;
 
     void Awake()
     {
-        
+
+        audioSource = GetComponent<AudioSource>();    
         playerMove = FindObjectOfType<PlayerMove>();
         Invoke("Destroy", 1.5f);
+
     }
+
     void Destroy()
     {
         Destroy(gameObject);
     }
+
     float knockBackPos;
     void Update()
     {
@@ -35,7 +41,7 @@ public class SkillMove : MonoBehaviour
         };
 
         Collider2D col = Physics2D.OverlapBox(transform.position, new Vector2(1, 1), 0, LayerMask.GetMask("Enemy"));
-        if (col != null)
+        if (col != null && i == false)
         {
 
             Enemy_AI enemy = col.gameObject.GetComponent<Enemy_AI>();
@@ -43,12 +49,22 @@ public class SkillMove : MonoBehaviour
             if (enemy.IsDie == false)
             {
 
+                i = true;
+                audioSource.Play();
                 enemy.TakeDamage((int)Random.Range((playerMove.AttackPower + playerMove.Buff_AttackPower + playerMove.WaponAttackPower) * 2, (playerMove.AttackPower + playerMove.Buff_AttackPower + playerMove.WaponAttackPower) * 2.5f), pos);
                 Instantiate(explosionEffect, transform.position, Quaternion.identity);
-                Destroy(gameObject);
+                StartCoroutine(Del());
 
             }
         }
+    }
+
+    IEnumerator Del()
+    {
+
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
+
     }
 
 }
