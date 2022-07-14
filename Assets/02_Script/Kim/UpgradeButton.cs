@@ -76,7 +76,7 @@ public class UpgradeButton : MonoBehaviour
         PlayerPrefs.SetInt("Cost", currentCost);
 
 
-
+        PlayerPrefs.SetFloat("Wapon_HP", damage * 2);
         PlayerPrefs.SetFloat("Wapon_Damage", damage);
         costText.text = $"°­È­ : {currentCost}";
         weaponText.text = $"+{weapon}°­";
