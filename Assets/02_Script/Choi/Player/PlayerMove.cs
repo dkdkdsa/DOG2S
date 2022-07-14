@@ -33,17 +33,20 @@ public class PlayerMove : MonoBehaviour
     private float buff_Speed;
     private float buff_HP;
     private float dashPos;
+    private float waponAttackPower;
     private float rotate_Value;
     private float knockBackPos;
 
+    public bool IsAttack => isAttack;
+    public bool IsSkill => isSkill;
     public float KnockBackPos => knockBackPos;
     public float AttackPower { get { return attackPower; } set { attackPower = value;  } }
     public float Buff_Defance { get { return buff_Defense; } set { buff_Defense = value;} }
     public float Buff_AttackPower { get { return buff_AttackPower; } set { buff_AttackPower = value; } }
     public float Buff_Speed { get { return buff_Speed; } set { buff_Speed = value; } }
     public float Buff_Hp { get { return buff_HP; } set { buff_HP = value; } }
+    public float WaponAttackPower { get { return waponAttackPower; } set { waponAttackPower = value; } }
     public bool IsDie { get { return isDie; } set { isDie = value; } }
-
     public bool IsClear { get { return isClear; } set { isClear = value; } }
 
     void Awake()
@@ -51,6 +54,7 @@ public class PlayerMove : MonoBehaviour
      
         animator = GetComponent<Animator>();
         player_rigidbody = GetComponent<Rigidbody2D>();
+        
 
     }
 
@@ -58,7 +62,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
 
-        if (!isDie && !isClear)
+        if (!isDie && !isClear && !isDash)
         {
 
             float moveX = Input.GetAxisRaw("Horizontal");
@@ -151,6 +155,7 @@ public class PlayerMove : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && dashCool == false && isAttack == false)
         {
+
             dashCool = true;
             player_rigidbody.velocity = Vector2.zero;
             player_rigidbody.AddForce(new Vector2(dashPos, 0) * dashSpeed, ForceMode2D.Impulse);
@@ -221,7 +226,7 @@ public class PlayerMove : MonoBehaviour
                 if(enemy.IsDie == false)
                 {
 
-                    enemy.TakeDamage((int)Random.Range(attackPower, attackPower + 9), 0);
+                    enemy.TakeDamage((int)Random.Range(attackPower + buff_AttackPower + waponAttackPower, attackPower + buff_AttackPower  + waponAttackPower + 9), 0);
 
                 }
 
@@ -284,7 +289,7 @@ public class PlayerMove : MonoBehaviour
     IEnumerator AttackDelay()
     {
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         attackCool = false;
 
     }

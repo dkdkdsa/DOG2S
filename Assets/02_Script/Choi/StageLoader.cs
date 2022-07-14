@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StageLoader : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class StageLoader : MonoBehaviour
     [SerializeField] private UI_Move obj;
     [SerializeField] private UI_Move obj_Scene;
     [SerializeField] private ClearUI obj_Clear;
+    [SerializeField] private Slider obj_Slider;
 
     private Stage[] stages;
 
@@ -22,6 +24,8 @@ public class StageLoader : MonoBehaviour
     {
         
         stages = stageBox.GetComponentsInChildren<Stage>();
+        money = PlayerPrefs.GetInt("Money");
+        core = PlayerPrefs.GetInt("Earthcore");
 
     }
 
@@ -30,22 +34,26 @@ public class StageLoader : MonoBehaviour
 
         Load();
 
+        obj_Slider.maxValue = 100 + player.Buff_Hp;
+
+        obj_Slider.value = obj_Slider.maxValue;
+
     }
 
     public void Load()
     {
 
         int count = PlayerPrefs.GetInt("Stage");
-
         player.AttackPower = PlayerPrefs.GetFloat("Damage");
         player.Buff_Hp = PlayerPrefs.GetFloat("Buff_HP");
         player.Buff_Defance = PlayerPrefs.GetFloat("Buff_Defence");
         player.Buff_AttackPower = PlayerPrefs.GetFloat("Buff_AttackPower");
         player.Buff_Speed = PlayerPrefs.GetFloat("Buff_Speed");
+        player.WaponAttackPower = PlayerPrefs.GetFloat("Wapon_Damage");
         
         if(player.AttackPower <= 0) player.AttackPower = 10;
         player.transform.position = stages[count].transform.position;
-        main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
+        main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);       
 
     }
 
@@ -64,7 +72,7 @@ public class StageLoader : MonoBehaviour
 
         };
 
-        PlayerPrefs.SetInt("Core", core);
+        PlayerPrefs.SetInt("Earthcore", core);
         PlayerPrefs.SetInt("Wapons", wapons);
         PlayerPrefs.SetInt("Money", money);
         obj_Clear.Disable();

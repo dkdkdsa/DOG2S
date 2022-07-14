@@ -15,6 +15,6 @@ public class EarthcoreTextManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Text.text = "어스코어 개수 : " + SM.TowerEarthcore;
+        Text.text = "남은 에너지 : " + SM.TowerEnergy + "%";
     }
 }
