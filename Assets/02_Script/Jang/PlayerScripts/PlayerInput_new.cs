@@ -11,6 +11,10 @@ public class PlayerInput_new : MonoBehaviour
     RestaurantOpen RO;
     WellOpen WO;
     FactoryOpen FO;
+
+    [SerializeField] private AudioSource source;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,18 +31,22 @@ public class PlayerInput_new : MonoBehaviour
     {
         if (DO.dungeon_possible == true && Input.GetKeyDown(KeyCode.E))
         {
+            PlayerPrefs.SetInt("LLL", 1);
             SceneManager.LoadScene("TowerSide_ChoiDaeWon");
         }
         if (SO.smithy_possible == true && Input.GetKeyDown(KeyCode.E))
         {
+            PlayerPrefs.SetInt("LLL", 2);
             SceneManager.LoadScene("Smithy");
         }
         if (TO.town_possible == true && Input.GetKeyDown(KeyCode.E))
         {
+            PlayerPrefs.SetInt("LLL", 3);
             SceneManager.LoadScene("Town");
         }
         if (RO.restaurant_possible == true && Input.GetKeyDown(KeyCode.E))
         {
+            PlayerPrefs.SetInt("LLL", 4);
             SceneManager.LoadScene("Pestaurant");
         }
     }

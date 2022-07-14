@@ -98,11 +98,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa1a6812bb94914996525caf1934e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  use_KnockBack: 0
+  unEnable_KnockBack: 0
   speed: 2
   damage: 10
   HP: 100
-  money: 0
+  money: 100
   damageEffect: {fileID: 2707350622559704875, guid: a2e8ad960384f5540b8a999161a971d5, type: 3}
   size: {x: 10, y: 2}
 --- !u!50 &690437430057890438
@@ -124,7 +124,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!95 &690437430057890439
 Animator:

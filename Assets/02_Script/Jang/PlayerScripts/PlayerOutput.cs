@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class PlayerOutput : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    [SerializeField] private GameObject[] sex;
+    [SerializeField] private GameObject player;
+ 
     void Start()
     {
         

@@ -13,7 +13,7 @@ public class StageLoader : MonoBehaviour
     [SerializeField] private UI_Move obj_Scene;
     [SerializeField] private ClearUI obj_Clear;
     [SerializeField] private Slider obj_Slider;
-    [SerializeField] private ShowBuff obj_ShowBuff;
+    //[SerializeField] private ShowBuff obj_ShowBuff;
 
     private Stage[] stages;
 
@@ -37,7 +37,7 @@ public class StageLoader : MonoBehaviour
         float a = PlayerPrefs.GetFloat("Wapon_HP");
         obj_Slider.maxValue = 100 + player.Buff_Hp + a;
         obj_Slider.value = obj_Slider.maxValue;
-        obj_ShowBuff.Show();
+        //obj_ShowBuff.Show();
 
     }
 
@@ -63,7 +63,7 @@ public class StageLoader : MonoBehaviour
 
         int count = PlayerPrefs.GetInt("Stage");
 
-        core = count switch
+        core += count switch
         {
 
             3 => 3,
@@ -76,9 +76,9 @@ public class StageLoader : MonoBehaviour
         PlayerPrefs.SetInt("Earthcore", core);
         PlayerPrefs.SetInt("Wapons", wapons);
         PlayerPrefs.SetInt("Money", money);
+        PlayerPrefs.SetInt("Stage", 0);
         obj_Clear.Disable();
         obj_Scene.Lode(true);
-        PlayerPrefs.SetInt("Stage", 0);
 
     }
 
@@ -87,7 +87,7 @@ public class StageLoader : MonoBehaviour
         int count = PlayerPrefs.GetInt("Stage");
         obj_Clear.Disable();
 
-        if(count == 9)
+        if(count == 3)
         {
 
 

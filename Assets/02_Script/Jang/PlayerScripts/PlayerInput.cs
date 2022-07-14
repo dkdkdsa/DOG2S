@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayerInput : MonoBehaviour
 {
+
+    [SerializeField] private AudioSource m_AudioSource;
+
     public GameObject window;
     NpcOpen NO;
     bool window_open;
@@ -31,6 +34,7 @@ public class PlayerInput : MonoBehaviour
         {
             window.SetActive(true);
             window_open = true;
+            m_AudioSource.Play();
             window Window = window.GetComponent<window>();
             Window.Load();
         }

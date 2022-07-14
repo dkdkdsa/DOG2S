@@ -20,7 +20,7 @@ public class ShopManager : MonoBehaviour
 
             PlayerPrefs.SetInt("Start", 1);
             Debug.Log(234);
-            TowerEnergy = 100;
+            TowerEnergy = 50;
         }
     }
 

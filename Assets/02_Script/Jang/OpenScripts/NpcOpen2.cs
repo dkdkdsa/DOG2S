@@ -14,7 +14,7 @@ public class NpcOpen2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Collider2D collider = Physics2D.OverlapCircle(transform.position, 1, LayerMask.GetMask("Player"));
+        Collider2D collider = Physics2D.OverlapCircle(transform.position, 1.5f, LayerMask.GetMask("Player"));
         if (collider != null)
         {
             npc2_possible = true;

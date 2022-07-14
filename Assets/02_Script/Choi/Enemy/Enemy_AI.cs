@@ -121,7 +121,7 @@ public class Enemy_AI : MonoBehaviour
             if(isKnockBack == false && unEnable_KnockBack == false)
             {
 
-                transform.position = new Vector2(transform.position.x + knockBackPos, transform.position.y + 0.5f);
+                enemy_rigidbody.AddForce(new Vector2(knockBackPos * 2, 3f) * 1, ForceMode2D.Impulse);
                 StartCoroutine(KnockCoolTime());
                 StartCoroutine(GracityCoolTime());
 

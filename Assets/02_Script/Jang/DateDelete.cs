@@ -13,13 +13,10 @@ public class DateDelete : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Slash))
         {
-            //SM.TowerEnergy = 0;
-            PI.Money = 9999999;
-            PI.Earthcore = 100;
-            PlayerPrefs.DeleteAll();
-            gameObject.GetComponent<DateDelete>().enabled = false;
+            PI.Money += 9999;
+            PI.Earthcore += 10;
         }
     }
 }

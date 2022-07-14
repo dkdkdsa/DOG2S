@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4bb7e5e0aedb604186463d9fcfbb871, type: 3}
   m_Name: "\uB3FC\uC9C0 \uD1B5\uAD6C\uC774"
   m_EditorClassIdentifier: 
+  count: 0
   sell: 100000
-  buff_HP: 10000000
+  buff_HP: 100
   buff_AttackPower: 10

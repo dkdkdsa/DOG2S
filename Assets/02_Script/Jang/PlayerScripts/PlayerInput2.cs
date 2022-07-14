@@ -7,6 +7,8 @@ public class PlayerInput2 : MonoBehaviour
     public GameObject window2;
     NpcOpen2 NO2;
     bool window2_open;
+
+    [SerializeField] private AudioSource audioSource;
     private void Awake()
     {
         window2.SetActive(false);
@@ -31,6 +33,7 @@ public class PlayerInput2 : MonoBehaviour
             window2.SetActive(true);
             window2_open = true;
             window Window = window2.GetComponent<window>();
+            audioSource.Play();
             Window.Load();
         }
         else if (window2_open == true && Input.GetKeyDown(KeyCode.E))

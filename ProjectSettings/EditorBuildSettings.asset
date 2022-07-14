@@ -8,18 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_Scene/Start_Text.unity
     guid: d0b7ee9ba0061564c92d2a2afe61dcf9
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/01_Scene/Start.unity
     guid: 613d1294d2dcb7b4694dfb1ffcc20cef
   - enabled: 1
     path: Assets/01_Scene/KimJaeHee.unity
     guid: 91f4addb795cb7d468d1f9b8d83e580f
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/01_Scene/ChoiDaeWon.unity
     guid: 512d8b07a05c10247aaf8d70ee6ec9d0
@@ -32,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_Scene/Smithy.unity
     guid: 8e453f7109c104d468769dc22a948a98
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/01_Scene/Pub.unity
     guid: c28d4c0850ca3bb42b67d45d1834f54e
