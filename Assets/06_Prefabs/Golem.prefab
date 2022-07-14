@@ -164,9 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa1a6812bb94914996525caf1934e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  use_KnockBack: 0
+  unEnable_KnockBack: 0
   speed: 4
-  damage: 10
+  damage: 7
   HP: 100
   money: 100
   damageEffect: {fileID: 2707350622559704875, guid: a2e8ad960384f5540b8a999161a971d5, type: 3}
