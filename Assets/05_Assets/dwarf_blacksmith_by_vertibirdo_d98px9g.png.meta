@@ -1,0 +1,1860 @@
+fileFormatVersion: 2
+guid: 48866a839bfb4ea4aaf5fb0b0f02bbc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 293789422075617217
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_0
+  - first:
+      213: -8679936087765183781
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_1
+  - first:
+      213: 1658908068802701289
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_2
+  - first:
+      213: -3165997201675821367
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_3
+  - first:
+      213: -2699314111309707046
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_4
+  - first:
+      213: 1731246287747095055
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_5
+  - first:
+      213: -6732908100149112423
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_6
+  - first:
+      213: -707774112950147533
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_7
+  - first:
+      213: 476298471029383003
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_8
+  - first:
+      213: -7928669005982658121
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_9
+  - first:
+      213: -2128831822506221791
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_10
+  - first:
+      213: 168559985998802310
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_11
+  - first:
+      213: -1202541953837909954
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_12
+  - first:
+      213: -3203930298357347830
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_13
+  - first:
+      213: 8691158915550056057
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_14
+  - first:
+      213: -1016433152785851334
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_15
+  - first:
+      213: 4146247740455492613
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_16
+  - first:
+      213: 8727383449465497758
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_17
+  - first:
+      213: 6061400848483268228
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_18
+  - first:
+      213: -262344669980462211
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_19
+  - first:
+      213: -2082027605379490095
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_20
+  - first:
+      213: 7687078626496471244
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_21
+  - first:
+      213: 899574371152649216
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_22
+  - first:
+      213: -7282856633999526191
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_23
+  - first:
+      213: -2159248532999478736
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_24
+  - first:
+      213: -1642188728613748082
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_25
+  - first:
+      213: 6926851063514926004
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_26
+  - first:
+      213: 9181869635050699487
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_27
+  - first:
+      213: -1138167379751441190
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_28
+  - first:
+      213: -5667756697921220476
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_29
+  - first:
+      213: -7727208465088390150
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_30
+  - first:
+      213: 4993627148435164158
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_31
+  - first:
+      213: 4515812816731748054
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_32
+  - first:
+      213: 6355675970489861497
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_33
+  - first:
+      213: 2892576091155395746
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_34
+  - first:
+      213: 4108675543864314118
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_35
+  - first:
+      213: 8375136043399084600
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_36
+  - first:
+      213: -2269498523880582314
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_37
+  - first:
+      213: -5369945532441879598
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_38
+  - first:
+      213: 476322070814535421
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_39
+  - first:
+      213: 8921680982015794247
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_40
+  - first:
+      213: 1288070547960113521
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_41
+  - first:
+      213: 8064676927021058824
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_42
+  - first:
+      213: 1441876012202612625
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_43
+  - first:
+      213: -341916199718004391
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_44
+  - first:
+      213: 2162801430935564129
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_45
+  - first:
+      213: 7115179660950698181
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_46
+  - first:
+      213: -6319243584470718824
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_47
+  - first:
+      213: 4120398297885017829
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_48
+  - first:
+      213: -5991203016800756639
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_49
+  - first:
+      213: -8782237163287571990
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_50
+  - first:
+      213: -7284080347895905802
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_51
+  - first:
+      213: -9000055672967421525
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_52
+  - first:
+      213: 2046740882215536983
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_53
+  - first:
+      213: -8662749408151450773
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_54
+  - first:
+      213: -2914232368238754589
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_55
+  - first:
+      213: -1801543243318393820
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_56
+  - first:
+      213: -7352625961883535
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_57
+  - first:
+      213: -4578142031451922186
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_58
+  - first:
+      213: -1683340356701388338
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_59
+  - first:
+      213: -787601860972119308
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_60
+  - first:
+      213: 6755067647425428235
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_61
+  - first:
+      213: 978924687254804700
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_62
+  - first:
+      213: -7512055753813019507
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_63
+  - first:
+      213: -3795644824001678694
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_64
+  - first:
+      213: -3626103574458431559
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_65
+  - first:
+      213: -2441956242322584019
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_66
+  - first:
+      213: -7142369796608666518
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_67
+  - first:
+      213: -919092974926635249
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_68
+  - first:
+      213: -2033560541466708797
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_69
+  - first:
+      213: 2064822312837948274
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_70
+  - first:
+      213: -6975617206062382741
+    second: dwarf_blacksmith_by_vertibirdo_d98px9g_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf959d3cefb31400800000000000000
+      internalID: 293789422075617217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd299afcd1caa8780800000000000000
+      internalID: -8679936087765183781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7a30c6910a50710800000000000000
+      internalID: 1658908068802701289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce5b3ab15e1014d0800000000000000
+      internalID: -3165997201675821367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad88f2a0e1c1a8ad0800000000000000
+      internalID: -2699314111309707046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_5
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a11ef735f960810800000000000000
+      internalID: 1731246287747095055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_6
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991134161c7ef82a0800000000000000
+      internalID: -6732908100149112423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_7
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336a368b13b7d26f0800000000000000
+      internalID: -707774112950147533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_8
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3360
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f94c49fe62c9600800000000000000
+      internalID: 476298471029383003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b111c40c85b7f190800000000000000
+      internalID: -7928669005982658121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f18f88cbed472e0800000000000000
+      internalID: -2128831822506221791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dadc80a68d65200800000000000000
+      internalID: 168559985998802310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_12
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38bcfdd676bf4fe0800000000000000
+      internalID: -1202541953837909954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a8c496e5a5983d0800000000000000
+      internalID: -3203930298357347830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_14
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e84d76cf23d9870800000000000000
+      internalID: 8691158915550056057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_15
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cd44ece67e4e1f0800000000000000
+      internalID: -1016433152785851334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_16
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c9d982a5e6a8930800000000000000
+      internalID: 4146247740455492613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_17
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2880
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a304f105ed1970800000000000000
+      internalID: 8727383449465497758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486b81ff4fb6e1450800000000000000
+      internalID: 6061400848483268228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f811a9e6fb5cf0800000000000000
+      internalID: -262344669980462211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de5cc88ce62b13e0800000000000000
+      internalID: -2082027605379490095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_21
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0e1dc684dfdaa60800000000000000
+      internalID: 7687078626496471244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_22
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c5999df1eeb7c00800000000000000
+      internalID: 899574371152649216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_23
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d67c544a781eea90800000000000000
+      internalID: -7282856633999526191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_24
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03268c046eec802e0800000000000000
+      internalID: -2159248532999478736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_25
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82c3d05d06c539e0800000000000000
+      internalID: -1642188728613748082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_26
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2400
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb08dc975e112060800000000000000
+      internalID: 6926851063514926004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda742319cd8c6f70800000000000000
+      internalID: 9181869635050699487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6af26cca6430f0800000000000000
+      internalID: -1138167379751441190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4809013ff451851b0800000000000000
+      internalID: -5667756697921220476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbd30d67d073c490800000000000000
+      internalID: -7727208465088390150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_31
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb89332f6dec4540800000000000000
+      internalID: 4993627148435164158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_32
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6b37db4d36bae30800000000000000
+      internalID: 4515812816731748054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_33
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975c8801f95e33850800000000000000
+      internalID: 6355675970489861497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_34
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4fa1f11ae742820800000000000000
+      internalID: 2892576091155395746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_35
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1920
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6090e5173a2f40930800000000000000
+      internalID: 4108675543864314118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a7f5cabd57a3470800000000000000
+      internalID: 8375136043399084600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65313d9ed1f1180e0800000000000000
+      internalID: -2269498523880582314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_38
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db1b9b4dfe1a75b0800000000000000
+      internalID: -5369945532441879598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_39
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe2495566c3c9600800000000000000
+      internalID: 476322070814535421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_40
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd864859d20db70800000000000000
+      internalID: 8921680982015794247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_41
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1792ec0c65520e110800000000000000
+      internalID: 1288070547960113521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_42
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b0167cfec7bef60800000000000000
+      internalID: 8064676927021058824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_43
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1975e7df792920410800000000000000
+      internalID: 1441876012202612625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_44
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1440
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9595bd42705414bf0800000000000000
+      internalID: -341916199718004391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fee924170d30e10800000000000000
+      internalID: 2162801430935564129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8fc0c24323eb260800000000000000
+      internalID: 7115179660950698181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_47
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896e472d0798d48a0800000000000000
+      internalID: -6319243584470718824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_48
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e68f8ecb689e2930800000000000000
+      internalID: 4120398297885017829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_49
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c97565998fadca0800000000000000
+      internalID: -5991203016800756639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_50
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1920d84d93f1680800000000000000
+      internalID: -8782237163287571990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_51
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1c24c248fb9ea90800000000000000
+      internalID: -7284080347895905802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_52
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1a90ebc01691380800000000000000
+      internalID: -9000055672967421525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_53
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 960
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7590abffcfb776c10800000000000000
+      internalID: 2046740882215536983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b48ec7f4bb7c780800000000000000
+      internalID: -8662749408151450773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e40f22f9119e87d0800000000000000
+      internalID: -2914232368238754589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_56
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424808617f1aff6e0800000000000000
+      internalID: -1801543243318393820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_57
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178206d53d0e5eff0800000000000000
+      internalID: -7352625961883535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_58
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0e504141c2770c0800000000000000
+      internalID: -4578142031451922186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_59
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec10cb24dd293a8e0800000000000000
+      internalID: -1683340356701388338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_60
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faf154c740e115f0800000000000000
+      internalID: -787601860972119308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_61
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bb6864c32debd50800000000000000
+      internalID: 6755067647425428235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_62
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 480
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8dea501d6d59d00800000000000000
+      internalID: 978924687254804700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84bb0da711dfb790800000000000000
+      internalID: -7512055753813019507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_64
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9274db8429235bc0800000000000000
+      internalID: -3795644824001678694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_65
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b781adc20e7dadc0800000000000000
+      internalID: -3626103574458431559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_66
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e80535cbd6c1ed0800000000000000
+      internalID: -2441956242322584019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_67
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6459aa038431ec90800000000000000
+      internalID: -7142369796608666518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_68
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fd0f11fc9be33f0800000000000000
+      internalID: -919092974926635249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_69
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c430a8367757c3e0800000000000000
+      internalID: -2033560541466708797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_70
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273a10124f8b7ac10800000000000000
+      internalID: 2064822312837948274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwarf_blacksmith_by_vertibirdo_d98px9g_71
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 640
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b618c870c11a13f90800000000000000
+      internalID: -6975617206062382741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

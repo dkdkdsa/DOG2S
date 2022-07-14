@@ -34,8 +34,8 @@ public class StageLoader : MonoBehaviour
     {
 
         Load();
-
-        obj_Slider.maxValue = 100 + player.Buff_Hp;
+        float a = PlayerPrefs.GetFloat("Wapon_HP");
+        obj_Slider.maxValue = 100 + player.Buff_Hp + a;
         obj_Slider.value = obj_Slider.maxValue;
         obj_ShowBuff.Show();
 
