@@ -6,7 +6,7 @@ using DG.Tweening;
 public class Enemy_AI : MonoBehaviour
 {
 
-    [SerializeField] private bool use_KnockBack;
+    [SerializeField] private bool unEnable_KnockBack;
     [SerializeField] private float speed;
     [SerializeField] private float damage;
     [SerializeField] private float HP;
@@ -118,7 +118,7 @@ public class Enemy_AI : MonoBehaviour
 
         if(HP > 0)
         {
-            if(isKnockBack == false && use_KnockBack == false)
+            if(isKnockBack == false && unEnable_KnockBack == false)
             {
 
                 transform.position = new Vector2(transform.position.x + knockBackPos, transform.position.y + 0.5f);
@@ -172,7 +172,7 @@ public class Enemy_AI : MonoBehaviour
     public void AttackEvent()
     {
 
-        if(attackBox == true && playerMove.IsDie == false) playerManager.TakeDamage((int)Random.Range(damage, damage + 10f));
+        if(attackBox == true && playerMove.IsDie == false && playerMove.IsDash == false) playerManager.TakeDamage((int)Random.Range(damage, damage + 10f));
 
     }
 
