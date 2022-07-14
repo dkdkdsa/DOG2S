@@ -17,7 +17,6 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject skillEffect;
     [SerializeField] private Gravity gravity;
-    [SerializeField] private AudioSource audioSource;
 
     private Animator animator;
     private Rigidbody2D player_rigidbody;
@@ -49,7 +48,6 @@ public class PlayerMove : MonoBehaviour
     public float WaponAttackPower { get { return waponAttackPower; } set { waponAttackPower = value; } }
     public bool IsDie { get { return isDie; } set { isDie = value; } }
     public bool IsClear { get { return isClear; } set { isClear = value; } }
-    public bool IsDash { get { return isDash; } set { isDash = value; } }
 
     void Awake()
     {
@@ -158,7 +156,6 @@ public class PlayerMove : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.LeftShift) && dashCool == false && isAttack == false)
         {
 
-            audioSource.Play();
             dashCool = true;
             player_rigidbody.velocity = Vector2.zero;
             player_rigidbody.AddForce(new Vector2(dashPos, 0) * dashSpeed, ForceMode2D.Impulse);
