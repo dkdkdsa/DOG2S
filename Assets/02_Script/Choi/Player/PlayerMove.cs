@@ -17,6 +17,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject skillEffect;
     [SerializeField] private Gravity gravity;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioSource walkAudioSource;
 
     private Animator animator;
     private Rigidbody2D player_rigidbody;
@@ -28,6 +30,7 @@ public class PlayerMove : MonoBehaviour
     private bool attackCool;
     private bool isDie;
     private bool isClear;
+    private bool isStart;
     private float buff_AttackPower;
     private float buff_Defense;
     private float buff_Speed;
@@ -48,6 +51,7 @@ public class PlayerMove : MonoBehaviour
     public float WaponAttackPower { get { return waponAttackPower; } set { waponAttackPower = value; } }
     public bool IsDie { get { return isDie; } set { isDie = value; } }
     public bool IsClear { get { return isClear; } set { isClear = value; } }
+    public bool IsDash { get { return isDash; } set { isDash = value; } }
 
     void Awake()
     {
@@ -138,9 +142,28 @@ public class PlayerMove : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         float inputRaw = Input.GetAxisRaw("Horizontal");
 
-        if (inputRaw != 0) moving = true;
-        else moving = false;
+        if (inputRaw != 0)
+        {
+            moving = true;
+            if (isStart == false)
+            {
 
+                isStart = true;
+                walkAudioSource.Play();
+            }
+        }
+        else
+        {
+            moving = false;
+
+            if(isStart == true)
+            {
+
+                walkAudioSource.Stop();
+                isStart = false;
+            }
+
+        }
        animator.SetBool("Walk", moving);
 
         float slowSpeed = moving ? 1.0f : 0.5f;
@@ -156,6 +179,7 @@ public class PlayerMove : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.LeftShift) && dashCool == false && isAttack == false)
         {
 
+            audioSource.Play();
             dashCool = true;
             player_rigidbody.velocity = Vector2.zero;
             player_rigidbody.AddForce(new Vector2(dashPos, 0) * dashSpeed, ForceMode2D.Impulse);

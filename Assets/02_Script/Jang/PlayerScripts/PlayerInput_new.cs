@@ -41,9 +41,5 @@ public class PlayerInput_new : MonoBehaviour
         {
             SceneManager.LoadScene("Pestaurant");
         }
-        if (WO.welln_possible == true && Input.GetKeyDown(KeyCode.E))
-        {
-            SceneManager.LoadScene("Well");
-        }
     }
 }

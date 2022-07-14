@@ -1,7 +1,223 @@
 fileFormatVersion: 2
 guid: 44c25254fcadfbc4c9baa60583f4005b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5720516374030490942
+    second: Inn Keeper Sprite Sheet_0
+  - first:
+      213: 5360922218338924776
+    second: Inn Keeper Sprite Sheet_1
+  - first:
+      213: 3343403549911379514
+    second: Inn Keeper Sprite Sheet_2
+  - first:
+      213: -5104045262150841441
+    second: Inn Keeper Sprite Sheet_3
+  - first:
+      213: 2746760012671146316
+    second: Inn Keeper Sprite Sheet_4
+  - first:
+      213: 3738793971893565930
+    second: Inn Keeper Sprite Sheet_5
+  - first:
+      213: -2378206138556155795
+    second: Inn Keeper Sprite Sheet_6
+  - first:
+      213: 2114622910246462573
+    second: Inn Keeper Sprite Sheet_7
+  - first:
+      213: 372048948655476798
+    second: Inn Keeper Sprite Sheet_8
+  - first:
+      213: 84111477814025429
+    second: Inn Keeper Sprite Sheet_9
+  - first:
+      213: -459242189090189903
+    second: Inn Keeper Sprite Sheet_10
+  - first:
+      213: 7300829160444274843
+    second: Inn Keeper Sprite Sheet_11
+  - first:
+      213: -5825294513188983705
+    second: Inn Keeper Sprite Sheet_12
+  - first:
+      213: 6764547477003200382
+    second: Inn Keeper Sprite Sheet_13
+  - first:
+      213: -6556100932953004620
+    second: Inn Keeper Sprite Sheet_14
+  - first:
+      213: -8777446541415873967
+    second: Inn Keeper Sprite Sheet_15
+  - first:
+      213: 8053228616768602326
+    second: Inn Keeper Sprite Sheet_16
+  - first:
+      213: -877723743256337935
+    second: Inn Keeper Sprite Sheet_17
+  - first:
+      213: 1858886825663106394
+    second: Inn Keeper Sprite Sheet_18
+  - first:
+      213: -378504963432311518
+    second: Inn Keeper Sprite Sheet_19
+  - first:
+      213: -7306023786441146418
+    second: Inn Keeper Sprite Sheet_20
+  - first:
+      213: -8212502734330556429
+    second: Inn Keeper Sprite Sheet_21
+  - first:
+      213: 693552988185128419
+    second: Inn Keeper Sprite Sheet_22
+  - first:
+      213: 5458668631218217868
+    second: Inn Keeper Sprite Sheet_23
+  - first:
+      213: -3417210635166858489
+    second: Inn Keeper Sprite Sheet_24
+  - first:
+      213: -8212351040136749896
+    second: Inn Keeper Sprite Sheet_25
+  - first:
+      213: -3054242501459705709
+    second: Inn Keeper Sprite Sheet_26
+  - first:
+      213: 104130366465596899
+    second: Inn Keeper Sprite Sheet_27
+  - first:
+      213: 2807539587833141301
+    second: Inn Keeper Sprite Sheet_28
+  - first:
+      213: 5692718986838467856
+    second: Inn Keeper Sprite Sheet_29
+  - first:
+      213: -3212527865093483992
+    second: Inn Keeper Sprite Sheet_30
+  - first:
+      213: 1126637885527674649
+    second: Inn Keeper Sprite Sheet_31
+  - first:
+      213: 7181436723098009817
+    second: Inn Keeper Sprite Sheet_32
+  - first:
+      213: -2163634754769098220
+    second: Inn Keeper Sprite Sheet_33
+  - first:
+      213: -4135186826489062199
+    second: Inn Keeper Sprite Sheet_34
+  - first:
+      213: 6423764121702864924
+    second: Inn Keeper Sprite Sheet_35
+  - first:
+      213: 2956756264957040667
+    second: Inn Keeper Sprite Sheet_36
+  - first:
+      213: -8611225234003339833
+    second: Inn Keeper Sprite Sheet_37
+  - first:
+      213: 1187792817875853663
+    second: Inn Keeper Sprite Sheet_38
+  - first:
+      213: -1036875296168413398
+    second: Inn Keeper Sprite Sheet_39
+  - first:
+      213: -2739506059198687023
+    second: Inn Keeper Sprite Sheet_40
+  - first:
+      213: -7957885627408201505
+    second: Inn Keeper Sprite Sheet_41
+  - first:
+      213: -6848912546706740565
+    second: Inn Keeper Sprite Sheet_42
+  - first:
+      213: 2373106272242646918
+    second: Inn Keeper Sprite Sheet_43
+  - first:
+      213: -2813872779915171510
+    second: Inn Keeper Sprite Sheet_44
+  - first:
+      213: 7656607360587925774
+    second: Inn Keeper Sprite Sheet_45
+  - first:
+      213: -9051276301867572402
+    second: Inn Keeper Sprite Sheet_46
+  - first:
+      213: -8805594493745112815
+    second: Inn Keeper Sprite Sheet_47
+  - first:
+      213: 3452399875103217606
+    second: Inn Keeper Sprite Sheet_48
+  - first:
+      213: -8242436717044670030
+    second: Inn Keeper Sprite Sheet_49
+  - first:
+      213: -7597743666764180813
+    second: Inn Keeper Sprite Sheet_50
+  - first:
+      213: -5540913399158404180
+    second: Inn Keeper Sprite Sheet_51
+  - first:
+      213: -7728324705903486090
+    second: Inn Keeper Sprite Sheet_52
+  - first:
+      213: -9026945587086953732
+    second: Inn Keeper Sprite Sheet_53
+  - first:
+      213: 6409479490177704437
+    second: Inn Keeper Sprite Sheet_54
+  - first:
+      213: -8982438671141490071
+    second: Inn Keeper Sprite Sheet_55
+  - first:
+      213: 7825992470095337228
+    second: Inn Keeper Sprite Sheet_56
+  - first:
+      213: -3819572815341696163
+    second: Inn Keeper Sprite Sheet_57
+  - first:
+      213: 3294798499296968362
+    second: Inn Keeper Sprite Sheet_58
+  - first:
+      213: -2716617338196890223
+    second: Inn Keeper Sprite Sheet_59
+  - first:
+      213: 668976868851103180
+    second: Inn Keeper Sprite Sheet_60
+  - first:
+      213: -4916025350108228003
+    second: Inn Keeper Sprite Sheet_61
+  - first:
+      213: -3223026735992109052
+    second: Inn Keeper Sprite Sheet_62
+  - first:
+      213: 5718957042664363556
+    second: Inn Keeper Sprite Sheet_63
+  - first:
+      213: 3371641893865435021
+    second: Inn Keeper Sprite Sheet_64
+  - first:
+      213: 4434304707184427749
+    second: Inn Keeper Sprite Sheet_65
+  - first:
+      213: -5807020216290077525
+    second: Inn Keeper Sprite Sheet_66
+  - first:
+      213: 1319001489421770510
+    second: Inn Keeper Sprite Sheet_67
+  - first:
+      213: 2935938516283243708
+    second: Inn Keeper Sprite Sheet_68
+  - first:
+      213: 8223946429288460755
+    second: Inn Keeper Sprite Sheet_69
+  - first:
+      213: 8613028703119679062
+    second: Inn Keeper Sprite Sheet_70
+  - first:
+      213: 781720045508590527
+    second: Inn Keeper Sprite Sheet_71
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +248,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +257,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -68,7 +284,43 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +329,1519 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c26b1a9aa4ac90b0800000000000000
+      internalID: -5720516374030490942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 288
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8379caa52d56a40800000000000000
+      internalID: 5360922218338924776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 288
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e6f3580d7266e20800000000000000
+      internalID: 3343403549911379514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 288
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bcbff50e9ca29b0800000000000000
+      internalID: -5104045262150841441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49d286bda37e1620800000000000000
+      internalID: 2746760012671146316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae97617fe4dd2e330800000000000000
+      internalID: 3738793971893565930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68f4b40e1aeefed0800000000000000
+      internalID: -2378206138556155795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64a4274556a85d10800000000000000
+      internalID: 2114622910246462573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30daaf2c88c92500800000000000000
+      internalID: 372048948655476798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc53a481f2da2100800000000000000
+      internalID: 84111477814025429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd086589a170a9f0800000000000000
+      internalID: -459242189090189903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 256
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b982812a071c15560800000000000000
+      internalID: 7300829160444274843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 256
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ca6550185682fa0800000000000000
+      internalID: -5825294513188983705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 256
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e776a09171080ed50800000000000000
+      internalID: 6764547477003200382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 224
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5aabbefec0405a0800000000000000
+      internalID: -6556100932953004620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 224
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1520def10ee303680800000000000000
+      internalID: -8777446541415873967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 224
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0c08552c0d2cf60800000000000000
+      internalID: 8053228616768602326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 224
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a748e7e2b1d3f0800000000000000
+      internalID: -877723743256337935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 224
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d8d4918b71cc910800000000000000
+      internalID: 1858886825663106394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 224
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22515ecbdb74fbaf0800000000000000
+      internalID: -378504963432311518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 224
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecffe90431acb9a90800000000000000
+      internalID: -7306023786441146418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 224
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff8d4b5644570e80800000000000000
+      internalID: -8212502734330556429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 192
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed6fa5a4ceff9900800000000000000
+      internalID: 693552988185128419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 192
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c836456e23611cb40800000000000000
+      internalID: 5458668631218217868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 192
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70341305801a390d0800000000000000
+      internalID: -3417210635166858489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 192
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcd6d96d3ed70e80800000000000000
+      internalID: -8212351040136749896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 192
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390089280a62d95d0800000000000000
+      internalID: -3054242501459705709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 192
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed538f3402f17100800000000000000
+      internalID: 104130366465596899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 161
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53814a1516266f620800000000000000
+      internalID: 2807539587833141301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 163
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015e0a8d1c9900f40800000000000000
+      internalID: 5692718986838467856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 161
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8221f0a6deeca63d0800000000000000
+      internalID: -3212527865093483992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fcf5d003f92af00800000000000000
+      internalID: 1126637885527674649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 161
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0c33996a699a360800000000000000
+      internalID: 7181436723098009817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 162
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a6c4a67a939f1e0800000000000000
+      internalID: -2163634754769098220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 161
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc9e3f8d7ddc96c0800000000000000
+      internalID: -4135186826489062199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 160
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c189ff22f6bc52950800000000000000
+      internalID: 6423764121702864924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18dc2c4822880920800000000000000
+      internalID: 2956756264957040667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 128
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5d95e1648ce7880800000000000000
+      internalID: -8611225234003339833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 128
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5120405643eb7010800000000000000
+      internalID: 1187792817875853663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 128
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27f08769674c91f0800000000000000
+      internalID: -1036875296168413398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d89e61f0c15bf9d0800000000000000
+      internalID: -2739506059198687023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8c52f3f29ef8190800000000000000
+      internalID: -7957885627408201505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa24db6356c3f0a0800000000000000
+      internalID: -6848912546706740565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f3643d497fee020800000000000000
+      internalID: 2373106272242646918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49e30e7d9d13f8d0800000000000000
+      internalID: -2813872779915171510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e090c78f3dbb14a60800000000000000
+      internalID: 7656607360587925774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43a54fb828636280800000000000000
+      internalID: -9051276301867572402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119df24467e3cc580800000000000000
+      internalID: -8805594493745112815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c75122156369ef20800000000000000
+      internalID: 3452399875103217606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b16ae4e97bfc9d80800000000000000
+      internalID: -8242436717044670030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 64
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b21c00c3646f8690800000000000000
+      internalID: -7597743666764180813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 64
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab06f7de98ba13b0800000000000000
+      internalID: -5540913399158404180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b5fbb50a97fb490800000000000000
+      internalID: -7728324705903486090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2f6eab0d8d9b280800000000000000
+      internalID: -9026945587086953732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 64
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1a13f23ab03f850800000000000000
+      internalID: 6409479490177704437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96231ed9e97f75380800000000000000
+      internalID: -8982438671141490071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 64
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c071aea00b28b9c60800000000000000
+      internalID: 7825992470095337228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 64
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bc1dbe2c62efac0800000000000000
+      internalID: -3819572815341696163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 32
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaef51d47c979bd20800000000000000
+      internalID: 3294798499296968362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 32
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d6b169ce2ac4ad0800000000000000
+      internalID: -2716617338196890223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 32
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5b2d6faeea84900800000000000000
+      internalID: 668976868851103180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56dbf38df4c6cbb0800000000000000
+      internalID: -4916025350108228003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 32
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4088a9b82428543d0800000000000000
+      internalID: -3223026735992109052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 32
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4265ab54121dd5f40800000000000000
+      internalID: 5718957042664363556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8faca1507a7ace20800000000000000
+      internalID: 3371641893865435021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2029123a0d98d30800000000000000
+      internalID: 4434304707184427749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4948451e1596fa0800000000000000
+      internalID: -5807020216290077525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f1233cdd80e4210800000000000000
+      internalID: 1319001489421770510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc3379768c8eb820800000000000000
+      internalID: 2935938516283243708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1b49184b3512270800000000000000
+      internalID: 8223946429288460755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e11b1c8ff978770800000000000000
+      internalID: 8613028703119679062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inn Keeper Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb775a5d3a39da00800000000000000
+      internalID: 781720045508590527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

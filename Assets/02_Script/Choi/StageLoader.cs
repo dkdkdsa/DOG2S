@@ -13,6 +13,7 @@ public class StageLoader : MonoBehaviour
     [SerializeField] private UI_Move obj_Scene;
     [SerializeField] private ClearUI obj_Clear;
     [SerializeField] private Slider obj_Slider;
+    [SerializeField] private ShowBuff obj_ShowBuff;
 
     private Stage[] stages;
 
@@ -33,10 +34,10 @@ public class StageLoader : MonoBehaviour
     {
 
         Load();
-
-        obj_Slider.maxValue = 100 + player.Buff_Hp;
-
+        float a = PlayerPrefs.GetFloat("Wapon_HP");
+        obj_Slider.maxValue = 100 + player.Buff_Hp + a;
         obj_Slider.value = obj_Slider.maxValue;
+        obj_ShowBuff.Show();
 
     }
 
@@ -89,12 +90,15 @@ public class StageLoader : MonoBehaviour
         if(count == 9)
         {
 
+
             LocdScenes();
 
         }
         else
         {
 
+            obj_Slider.maxValue = 100 + player.Buff_Hp;
+            obj_Slider.value = obj_Slider.maxValue;
             obj.transform.position = new Vector2(obj.transform.position.x + 1960 * 2, obj.transform.position.y);
             player.transform.position = stages[count + 1].transform.position;
             main_Camear.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
