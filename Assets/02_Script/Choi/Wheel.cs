@@ -24,16 +24,16 @@ public class Wheel : MonoBehaviour
 
         value= Input.GetAxis("Mouse ScrollWheel") * speed;
         
-        if(_camera.orthographicSize > 5 && value < 0)
+        if(_camera.orthographicSize > 12 && value < 0)
         {
 
-            _camera.orthographicSize = 5f;
+            _camera.orthographicSize = 12f;
 
         }
-        else if(_camera.orthographicSize < 1)
+        else if(_camera.orthographicSize < 0.5f)
         {
 
-            _camera.orthographicSize = 1f;
+            _camera.orthographicSize = 0.5f;
 
         }
         else
