@@ -16,6 +16,6 @@ public class MooneyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = "   : " + PI.Money;
+        text.text = "µ· : " + PI.Money;
     }
 }
