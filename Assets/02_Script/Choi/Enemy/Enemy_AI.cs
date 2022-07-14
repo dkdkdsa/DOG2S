@@ -172,7 +172,7 @@ public class Enemy_AI : MonoBehaviour
     public void AttackEvent()
     {
 
-        if(attackBox == true && playerMove.IsDie == false) playerManager.TakeDamage((int)Random.Range(damage, damage + 10f));
+        if(attackBox == true && playerMove.IsDie == false && playerMove.IsDash == false) playerManager.TakeDamage((int)Random.Range(damage, damage + 10f));
 
     }
 

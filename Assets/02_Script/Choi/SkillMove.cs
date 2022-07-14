@@ -9,12 +9,14 @@ public class SkillMove : MonoBehaviour
     [SerializeField] private GameObject explosionEffect;
 
     private PlayerMove playerMove;
+    private SpriteRenderer spriteRenderer;
+    private bool isCol;
 
     void Awake()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
         playerMove = FindObjectOfType<PlayerMove>();
-        Invoke("Destroy", 1.5f);
+        Invoke("Destroy", 3f);
     }
     void Destroy()
     {
@@ -35,20 +37,28 @@ public class SkillMove : MonoBehaviour
         };
 
         Collider2D col = Physics2D.OverlapBox(transform.position, new Vector2(1, 1), 0, LayerMask.GetMask("Enemy"));
-        if (col != null)
+        if (col != null && isCol == false)
         {
-
             Enemy_AI enemy = col.gameObject.GetComponent<Enemy_AI>();
 
             if (enemy.IsDie == false)
             {
-
+                isCol = true;
                 enemy.TakeDamage((int)Random.Range((playerMove.AttackPower + playerMove.Buff_AttackPower + playerMove.WaponAttackPower) * 2, (playerMove.AttackPower + playerMove.Buff_AttackPower + playerMove.WaponAttackPower) * 2.5f), pos);
                 Instantiate(explosionEffect, transform.position, Quaternion.identity);
-                Destroy(gameObject);
+                spriteRenderer.enabled = false;
+                StartCoroutine(_Destroy());
 
             }
         }
+    }
+
+    IEnumerator _Destroy()
+    {
+
+        yield return new WaitForSeconds(1f);
+        Destroy(gameObject);
+
     }
 
 }

@@ -21,16 +21,16 @@ public class Wheel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         value= Input.GetAxis("Mouse ScrollWheel") * speed;
+
         
-        if(_camera.orthographicSize > 12 && value < 0)
+        if(_camera.orthographicSize >= 12 && value < 0)
         {
 
             _camera.orthographicSize = 12f;
 
         }
-        else if(_camera.orthographicSize < 0.5f)
+        else if(_camera.orthographicSize <= 0.5f && value >= 0)
         {
 
             _camera.orthographicSize = 0.5f;
