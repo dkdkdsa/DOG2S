@@ -16,6 +16,6 @@ public class EarthcoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = "어스코어 : " + PI.Earthcore;
+        text.text = "   : " + PI.Earthcore;
     }
 }
