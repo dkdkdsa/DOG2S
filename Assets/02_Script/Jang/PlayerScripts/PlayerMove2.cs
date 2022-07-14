@@ -19,9 +19,9 @@ public class PlayerMove2 : MonoBehaviour
         Vector3 dir = new Vector3(x, y, 0);
         transform.Translate(dir * speed * Time.deltaTime);
 
-        Vector2 max = new Vector2(6.6f, 4.08f);
-        Vector2 min = new Vector2(-6.55f, -4.3f);
+        //Vector2 max = new Vector2(6.6f, 4.08f);
+        //Vector2 min = new Vector2(-6.55f, -4.3f);
 
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, min.x, max.x), Mathf.Clamp(transform.position.y, min.y, max.y));
+        //transform.position = new Vector2(Mathf.Clamp(transform.position.x, min.x, max.x), Mathf.Clamp(transform.position.y, min.y, max.y));
     }
 }
